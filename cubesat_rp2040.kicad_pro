@@ -680,7 +680,7 @@
   "sheets": [
     [
       "5511013b-c214-40ba-8960-f470f52474f8",
-      ""
+      "Root"
     ],
     [
       "b2b22437-9947-4ed3-9503-79a566d701fc",
@@ -688,15 +688,31 @@
     ],
     [
       "827fa2e5-5cb5-4cf2-935c-289587867af3",
-      "USB"
+      "USB Type-C connector"
     ],
     [
       "5047da3d-75a3-46e1-87b7-3e807ce5a802",
       "Debug"
     ],
     [
+      "51790321-3d2e-4c59-90a8-bc0a09a2d3fa",
+      "RP2040"
+    ],
+    [
       "0c29b30e-7660-45bf-be81-5710013bc73b",
       "CubeSat Bus"
+    ],
+    [
+      "b0096d86-af2c-457d-b29d-86011b9b0d63",
+      "Flash"
+    ],
+    [
+      "9f508e75-6f97-47bb-8ac1-2b188f21985e",
+      "Crystal oscillator"
+    ],
+    [
+      "1dd649c8-aa8e-49cc-bb70-2cb98c30ad65",
+      "Reset button"
     ]
   ],
   "text_variables": {}

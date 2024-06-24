@@ -387,9 +387,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -487,8 +487,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -507,9 +507,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -583,8 +583,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -640,6 +640,24 @@
 		(at 139.7 95.25)
 		(uuid "817e71c1-1a06-4c5c-af83-97cc78e6db76")
 	)
+	(bus_entry
+		(at 166.37 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db31fee5-14c9-4e2f-b0da-add3fccc0c19")
+	)
+	(bus_entry
+		(at 168.91 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb787ff2-7b10-4737-a022-eaab16cc1030")
+	)
 	(wire
 		(pts
 			(xy 105.41 95.25) (xy 105.41 100.33)
@@ -692,7 +710,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 144.78 90.17)
+			(xy 144.78 90.17) (xy 168.91 90.17)
 		)
 		(stroke
 			(width 0)
@@ -709,6 +727,16 @@
 			(type default)
 		)
 		(uuid "45a8c034-c713-450f-a0f7-cbfc409c0d5a")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481b9155-aa41-4ee9-bc00-f9eb66fea2d7")
 	)
 	(wire
 		(pts
@@ -752,7 +780,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 160.02 92.71)
+			(xy 149.86 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
@@ -762,13 +790,33 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 154.94 100.33)
+			(xy 168.91 90.17) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87cd8b67-f3d2-4880-a9d3-b4274f5bd96f")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a68f978-4938-447b-96f2-9b96d1e805f7")
+	)
+	(bus
+		(pts
+			(xy 171.45 97.79) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97377525-4b77-4077-b7d0-e77d06541624")
 	)
 	(wire
 		(pts
@@ -779,6 +827,16 @@
 			(type default)
 		)
 		(uuid "99eb27b7-72ba-461e-b2f8-70f149c8eaf8")
+	)
+	(bus
+		(pts
+			(xy 168.91 97.79) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f219b98-5555-4145-ac26-4ffd788798b8")
 	)
 	(wire
 		(pts
@@ -851,21 +909,31 @@
 		)
 		(uuid "8290978a-f4d9-4310-95b2-15bebd82f13b")
 	)
-	(hierarchical_label "SWDCLK"
-		(shape input)
-		(at 160.02 92.71 0)
+	(label "SWDIO"
+		(at 166.37 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "70c95219-c8df-490c-9367-036fda36f225")
+		(uuid "0fc623ea-1f9b-466a-a1a0-731b8b4feca6")
 	)
-	(hierarchical_label "SWDIO"
+	(label "SWDCLK"
+		(at 166.37 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d82a4511-061a-4163-bf94-8c8b02fde990")
+	)
+	(hierarchical_label "{SWDCLK SWDIO}"
 		(shape bidirectional)
-		(at 160.02 90.17 0)
+		(at 190.5 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -873,11 +941,11 @@
 			)
 			(justify left)
 		)
-		(uuid "7178926d-6ca2-4dc1-be12-165fd9786301")
+		(uuid "4dacf50b-f5ec-4efe-ae54-f4b62fc32d3f")
 	)
 	(hierarchical_label "RUN"
 		(shape output)
-		(at 160.02 100.33 0)
+		(at 190.5 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -897,7 +965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "299709af-b175-4559-8606-9f516d8b76f5")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 152.4 105.41 0)
 			(effects
 				(font
@@ -906,7 +974,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "R"
 			(at 152.4 107.95 0)
 			(effects
 				(font
@@ -915,7 +983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.638 106.68 90)
 			(effects
 				(font
@@ -933,7 +1001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 149.86 106.68 0)
 			(effects
 				(font
@@ -969,7 +1037,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -985,7 +1053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36212241-a831-4e59-8b73-5a9c3bea9201")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -1089,7 +1157,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1105,7 +1173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc6db11-546f-4530-ba28-7368720e86ac")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR019"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -1140,7 +1208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 154.94 77.47 0)
 			(effects
 				(font
@@ -1155,7 +1223,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR029")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -1171,7 +1239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c799b7c3-7edd-45dc-b0fa-e2356c04bd77")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR016"
 			(at 105.41 109.22 0)
 			(effects
 				(font
@@ -1206,7 +1274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 105.41 102.87 0)
 			(effects
 				(font
@@ -1221,7 +1289,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR026")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1237,7 +1305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7df62b-a30e-48c5-9f48-fdd930bb4fc8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR018"
 			(at 149.86 119.38 0)
 			(effects
 				(font
@@ -1272,7 +1340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -1287,7 +1355,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR028")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1303,7 +1371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1c1bbea-b33e-4b24-a30f-fe9b3437d300")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -1312,7 +1380,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "R"
 			(at 147.32 85.09 0)
 			(effects
 				(font
@@ -1321,7 +1389,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.558 83.82 90)
 			(effects
 				(font
@@ -1339,7 +1407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 144.78 83.82 0)
 			(effects
 				(font
@@ -1375,7 +1443,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1391,7 +1459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e31ac50e-0839-4ec0-9c4a-bc62988a0a9c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR015"
 			(at 105.41 91.44 0)
 			(effects
 				(font
@@ -1426,7 +1494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 105.41 87.63 0)
 			(effects
 				(font
@@ -1441,7 +1509,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR025")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1457,7 +1525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12f52ab-66bf-499e-b6d6-82f07cad3968")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR017"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -1492,7 +1560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -1507,7 +1575,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR027")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1523,7 +1591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b187fa-beee-4a1f-9099-ed4cd177265e")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -1532,7 +1600,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "R"
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -1541,7 +1609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 156.718 83.82 90)
 			(effects
 				(font
@@ -1559,7 +1627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -1595,7 +1663,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)

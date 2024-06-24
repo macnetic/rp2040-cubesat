@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "cubesat_rp2040")(type "KiCad")(uri "${KIPRJMOD}/cubesat_rp2040.kicad_sym")(options "")(descr ""))
+  (lib (name "cubesat_rp2040")(type "KiCad")(uri "${KIPRJMOD}/symbols/cubesat_rp2040.kicad_sym")(options "")(descr ""))
 )
