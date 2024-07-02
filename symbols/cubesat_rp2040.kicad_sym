@@ -1299,7 +1299,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 11.43 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,15 +1307,15 @@
 			)
 		)
 		(property "Value" ""
-			(at 12.7 -1.27 0)
+			(at 12.7 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "cubesat_rp2040:DFN-10-1EP_3x3mm_P0.5mm_EP0.98x0.62mm_Offset0.15mm"
-			(at 12.7 -31.75 0)
+		(property "Footprint" "cubesat_rp2040:DFN-10-1EP_3x3mm_P0.5mm_EP0.62x0.98mm_Offset0.15mm"
+			(at 12.7 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1324,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l7983.pdf"
-			(at 0 -26.67 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1333,7 @@
 			)
 		)
 		(property "Description" "60 V 300 mA synchronous step-down switching regulator with 10 µA quiescent current"
-			(at 0 -29.21 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,26 +1342,8 @@
 			)
 		)
 		(symbol "L7983_0_0"
-			(pin unspecified line
-				(at 2.54 -13.97 90)
-				(length 2.54)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "VOUT/FB"
 					(effects
@@ -1379,7 +1361,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -13.97 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1397,7 +1379,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "VBIAS"
 					(effects
@@ -1415,7 +1397,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1433,7 +1415,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "FSW"
 					(effects
@@ -1450,26 +1432,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -3.81 0)
-				(length 2.54)
-				(name "LNC/~{LCM}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin open_collector line
-				(at 12.7 6.35 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "~{RST}"
 					(effects
@@ -1486,26 +1450,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 3.81 0)
-				(length 2.54)
-				(name "UN/UVLO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -12.7 6.35 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1523,7 +1469,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "LX"
 					(effects
@@ -1543,14 +1489,70 @@
 		)
 		(symbol "L7983_0_1"
 			(rectangle
-				(start -10.16 10.16)
-				(end 10.16 -11.43)
+				(start -10.16 11.43)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "L7983_1_0"
+			(pin power_in line
+				(at 2.54 -15.24 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "LNM/~{LCM}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "EN/UVLO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

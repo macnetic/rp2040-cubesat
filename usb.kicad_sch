@@ -1008,126 +1008,12 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	)
+	(junction
+		(at 162.56 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ac132d1-ca4c-4b4e-a4cb-a5f5b59e7851")
 	)
 	(junction
 		(at 152.4 76.2)
@@ -1152,12 +1038,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fa23c0f-e791-45b1-a12b-5ed9104867ce")
-	)
-	(junction
-		(at 152.4 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7ad7efa-e423-4127-b07f-413ce5ca206f")
 	)
 	(junction
 		(at 179.07 101.6)
@@ -1210,16 +1090,6 @@
 			(type default)
 		)
 		(uuid "0c2b1b72-15bb-4a8c-a91b-3457a0b5dc66")
-	)
-	(wire
-		(pts
-			(xy 146.05 66.04) (xy 152.4 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "223e8a0c-bbd4-46c5-9a7b-7ca1fa1aa802")
 	)
 	(wire
 		(pts
@@ -1323,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 66.04) (xy 162.56 66.04)
+			(xy 146.05 66.04) (xy 162.56 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1370,16 +1240,6 @@
 			(type default)
 		)
 		(uuid "7ff2aba3-3d4f-4992-82b9-f80796440827")
-	)
-	(wire
-		(pts
-			(xy 152.4 66.04) (xy 152.4 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f1b3b3-8c28-4ca6-a065-ff1a43bb80e6")
 	)
 	(wire
 		(pts
@@ -1473,6 +1333,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f486cf35-3e04-4db4-9285-58092113fef9")
+	)
+	(wire
+		(pts
 			(xy 179.07 104.14) (xy 179.07 101.6)
 		)
 		(stroke
@@ -1547,6 +1417,18 @@
 			(justify left)
 		)
 		(uuid "6b211395-77af-4e70-a50b-f85064d5dad2")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 215.9 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bfd7730-ebd6-45b4-8119-e5824d166637")
 	)
 	(symbol
 		(lib_id "cubesat_rp2040:USB_C_Receptacle_USB2.0")
@@ -1656,72 +1538,6 @@
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 152.4 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "322d038f-af1d-441a-8ed3-a4cea3e5f31a")
-		(property "Reference" "#PWR013"
-			(at 152.4 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cffc3a31-b664-4ab0-8887-69a0f2dd26f7")
-		)
-		(instances
-			(project "cubesat_rp2040"
-				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)

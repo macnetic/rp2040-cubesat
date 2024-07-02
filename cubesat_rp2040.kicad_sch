@@ -10,7 +10,128 @@
 		(comment 1 "Author: Magnus Oksbøl Therkelsen")
 		(comment 2 "Checked by: ")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
 	(junction
 		(at 107.95 109.22)
 		(diameter 0)
@@ -52,6 +173,36 @@
 			(type default)
 		)
 		(uuid "250b9d41-ca3a-48d3-9821-301e6c772970")
+	)
+	(bus
+		(pts
+			(xy 177.8 57.15) (xy 171.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a51dfc9-fce3-45f1-a145-d660d24bff2f")
+	)
+	(bus
+		(pts
+			(xy 177.8 59.69) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3385b1b7-2966-411d-bbcd-55c9d33cf896")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.98) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ec938e-9172-4377-8297-8741c687a632")
 	)
 	(wire
 		(pts
@@ -95,6 +246,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 87.63) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed171cc-dbb8-4e06-b4c1-c7e333008679")
+	)
+	(wire
+		(pts
 			(xy 107.95 93.98) (xy 107.95 109.22)
 		)
 		(stroke
@@ -135,13 +296,33 @@
 	)
 	(bus
 		(pts
-			(xy 171.45 57.15) (xy 196.85 57.15)
+			(xy 196.85 59.69) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5fae4ad-6ae5-47ad-afc5-a6b54a7bd950")
+		(uuid "96f45851-af00-4a17-aecf-1bf683a26fcb")
+	)
+	(wire
+		(pts
+			(xy 190.5 57.15) (xy 196.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0e8b43-84c0-4b3d-8e1d-a19af72f992f")
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 177.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8188436-6dd4-4a2b-8b95-7d299f6f2248")
 	)
 	(bus
 		(pts
@@ -152,6 +333,26 @@
 			(type default)
 		)
 		(uuid "c7d9b365-f5e6-42d9-a46c-42a004dee6f8")
+	)
+	(wire
+		(pts
+			(xy 101.6 90.17) (xy 95.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8845d77-4bd8-436a-937a-94fce8099a3c")
+	)
+	(wire
+		(pts
+			(xy 63.5 90.17) (xy 69.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca0f0f9-c932-4dc2-8360-a9a72b3cbde9")
 	)
 	(text_box "http://www.cubesatkit.com/docs/CSK_PCB_Spec-A5.pdf"
 		(exclude_from_sim no)
@@ -232,6 +433,116 @@
 			(href "https://www.cubesat.org/cubesatinfo")
 		)
 		(uuid "dd70de25-c7d5-4dc6-86b6-542931763f27")
+	)
+	(label "LNM_ENABLE"
+		(at 63.5 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0acf429e-e026-45f3-addb-ce139b4f5900")
+	)
+	(label "LNM_ENABLE"
+		(at 177.8 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c8f2b7f-2bb6-4341-a1f9-ae24075a6740")
+	)
+	(label "VBUS"
+		(at 63.5 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f04a857-4f3d-4655-a4be-dab0fde0c0ef")
+	)
+	(label "VBUS"
+		(at 190.5 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c747fc1e-fff4-41cb-8799-53f65b754428")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "323bdcf4-5af4-47b0-a696-7ca277396da5")
+		(property "Reference" "#PWR07"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "001a7110-3bc8-4af4-a1cb-e04f8571f201")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 204.47 85.09)
@@ -467,6 +778,16 @@
 			)
 			(uuid "89c6a0b7-b565-459f-bf6e-7a35733cc5f0")
 		)
+		(pin "LNM_ENABLE" output
+			(at 171.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31001ff9-f598-4dde-a5e3-b99dd7f00af4")
+		)
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8"
@@ -506,7 +827,7 @@
 			)
 		)
 		(pin "USB{D+ D-}" bidirectional
-			(at 196.85 57.15 180)
+			(at 196.85 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,6 +835,16 @@
 				(justify left)
 			)
 			(uuid "a60982b9-7208-4487-8d51-36411f43b72a")
+		)
+		(pin "VBUS" output
+			(at 196.85 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7dc55eb-3459-49bb-82de-3a0afec9fe6c")
 		)
 		(instances
 			(project "cubesat_rp2040"
@@ -659,7 +990,17 @@
 				(justify left top)
 			)
 		)
-		(pin "PWR_RST" output
+		(pin "VOUT" output
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78c4bbaf-d93b-45f6-bb44-65bce0c966e6")
+		)
+		(pin "~{RST}" output
 			(at 95.25 93.98 0)
 			(effects
 				(font
@@ -667,7 +1008,27 @@
 				)
 				(justify right)
 			)
-			(uuid "8b5b2b7f-9927-46f5-ab12-898e877372f9")
+			(uuid "94e9c10e-06c8-4384-b449-5b6330950429")
+		)
+		(pin "LNM_ENABLE" input
+			(at 69.85 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "121b353a-8516-47ce-ab5f-60f69076d3b0")
+		)
+		(pin "VIN" input
+			(at 69.85 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7cd8ec0-ca0e-4140-8510-5c5d798a034b")
 		)
 		(instances
 			(project "cubesat_rp2040"
