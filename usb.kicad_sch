@@ -1183,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 123.19 113.03)
+			(xy 123.19 107.95) (xy 123.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1441,7 +1441,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d03a64a-516f-4d5a-891c-0611147394fb")
 		(property "Reference" "J1"
-			(at 130.81 59.055 0)
+			(at 130.81 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,14 +1449,14 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 130.81 61.595 0)
+			(at 130.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 134.62 81.28 0)
 			(effects
 				(font
@@ -1563,7 +1563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 108.585 0)
+			(at 179.07 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1620,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f62b4c2-7b51-4527-aa35-7a44c4aeb553")
 		(property "Reference" "R6"
-			(at 181.61 92.71 0)
+			(at 181.61 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,8 +1628,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 181.61 95.25 0)
+		(property "Value" "5.1k"
+			(at 181.61 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 		(fields_autoplaced yes)
 		(uuid "c872232f-7314-497d-99b1-f53a62b19e0d")
 		(property "Reference" "R5"
-			(at 170.18 92.71 0)
+			(at 170.18 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,8 +1764,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 170.18 95.25 0)
+		(property "Value" "R.1k"
+			(at 170.18 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 116.205 0)
+			(at 130.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1883,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 123.19 113.03 180)
+		(at 123.19 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1892,7 +1892,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc95917d-72bd-4ead-8bb3-bba93e18c1a5")
 		(property "Reference" "#FLG01"
-			(at 123.19 114.935 0)
+			(at 123.19 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1901,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 123.19 118.11 0)
+			(at 123.19 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 113.03 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 113.03 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1927,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 123.19 113.03 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

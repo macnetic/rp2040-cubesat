@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ESQ-126-39-G-D:SAMTEC_ESQ-126-39-G-D"
+		(property "Footprint" "cubesat_rp2040:SAMTEC_ESQ-126-39-G-D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1060,7 +1060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "FTSH-105-01-L-DV-007:SAMTEC_FTSH-105-01-L-DV-007"
+		(property "Footprint" "cubesat_rp2040:SAMTEC_FTSH-105-01-L-DV-007"
 			(at 0 0 0)
 			(effects
 				(font

@@ -176,23 +176,13 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 57.15) (xy 171.45 57.15)
+			(xy 171.45 59.69) (xy 196.85 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a51dfc9-fce3-45f1-a145-d660d24bff2f")
-	)
-	(bus
-		(pts
-			(xy 177.8 59.69) (xy 177.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3385b1b7-2966-411d-bbcd-55c9d33cf896")
 	)
 	(wire
 		(pts
@@ -293,16 +283,6 @@
 			(type default)
 		)
 		(uuid "91ec05c3-936b-4ede-ada9-3afefbf52b0f")
-	)
-	(bus
-		(pts
-			(xy 196.85 59.69) (xy 177.8 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96f45851-af00-4a17-aecf-1bf683a26fcb")
 	)
 	(wire
 		(pts
@@ -769,7 +749,7 @@
 			(uuid "76211dee-be1d-4563-a6c8-564942ee320e")
 		)
 		(pin "USB{D+ D-}" bidirectional
-			(at 171.45 57.15 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

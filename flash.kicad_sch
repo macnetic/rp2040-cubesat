@@ -1441,7 +1441,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ba0cb6d-1eb8-49e2-841b-c928f4134766")
 		(property "Reference" "J5"
-			(at 125.73 80.01 90)
+			(at 125.73 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 125.73 82.55 90)
+			(at 125.73 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -1518,7 +1518,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 129.54 97.79 90)
 			(effects
 				(font
@@ -1725,11 +1725,11 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b79cc330-9d57-470b-8a83-5dd9f1456f11")
 		(property "Reference" "R13"
-			(at 152.4 91.44 0)
+			(at 152.4 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,8 +1737,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 152.4 93.98 0)
+		(property "Value" "10k"
+			(at 152.4 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
