@@ -197,29 +197,12 @@
 			)
 		)
 	)
-	(pad "" smd rect
-		(at -0.3875 -0.62)
-		(size 0.6 1.05)
+	(pad "" smd roundrect
+		(at 0 -0.15)
+		(size 0.62 0.98)
 		(layers "F.Paste")
-		(uuid "f950b55f-b5ee-447a-89da-a84a3333319b")
-	)
-	(pad "" smd rect
-		(at -0.3875 0.62)
-		(size 0.6 1.05)
-		(layers "F.Paste")
-		(uuid "5d80a1af-6391-4814-92f4-d04101420eb5")
-	)
-	(pad "" smd rect
-		(at 0.3875 -0.62)
-		(size 0.6 1.05)
-		(layers "F.Paste")
-		(uuid "a3931d4a-35f5-461f-bda8-ed3f75d6d3dc")
-	)
-	(pad "" smd rect
-		(at 0.3875 0.62)
-		(size 0.6 1.05)
-		(layers "F.Paste")
-		(uuid "629db566-8e29-4330-8b30-69cc7a4e8339")
+		(roundrect_rratio 0.25)
+		(uuid "18ced2e4-9634-4e73-b581-c5bb2de44866")
 	)
 	(pad "1" smd rect
 		(at -1.55 -1)
@@ -286,7 +269,7 @@
 		(size 0.62 0.98)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "18ced2e4-9634-4e73-b581-c5bb2de44866")
+		(uuid "9fa611b0-f664-46ee-8ec6-6e752d2cb485")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.wrl"
 		(offset

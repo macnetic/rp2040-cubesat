@@ -636,7 +636,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,7 +1466,7 @@
 		)
 		(uuid "56f16a12-fd54-476e-9830-830ed7542968")
 	)
-	(text "LSW = (V_{OUT}*(1-V_{OUT}/V_{IN}))/(I_{SKIP}*F_{SW})\nDesign for V_{IN}=12V to 48V, V_{OUT}=3.3V\nLSW should be around 13.5uH to 17.5uH\nSelect LSW=${4d901b85-0fa5-4058-af92-b92026fe9135:VALUE} due to part availability"
+	(text "LSW = (V_{OUT}*(1-V_{OUT}/V_{IN}))/(I_{SKIP}*F_{SW})\nDesign for V_{IN}=12V to 48V, V_{OUT}=3.3V\nLSW should be around 13.5uH to 17.5uH\nSelect LSW=${4d901b85-0fa5-4058-af92-b92026fe9135:VALUE}"
 		(exclude_from_sim no)
 		(at 188.468 58.674 0)
 		(effects
@@ -1704,7 +1704,7 @@
 		(pin "6"
 			(uuid "d3716867-9911-49ed-a434-0f1cf8ce257f")
 		)
-		(pin ""
+		(pin "11"
 			(uuid "eba4b9ca-e490-4cd0-b205-f6cdcdc14771")
 		)
 		(pin "2"
@@ -1960,7 +1960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 190.5 83.82 0)
 			(effects
 				(font
@@ -2170,7 +2170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 216.8652 93.98 0)
 			(effects
 				(font
@@ -2852,7 +2852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.6152 107.95 0)
 			(effects
 				(font
