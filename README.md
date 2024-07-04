@@ -1,5 +1,8 @@
 # rp2040-cubesat
 
+> [!NOTE]  
+> Preview this project on your browser with [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fmacnetic%2Frp2040-cubesat)!
+
 ## Requirements
 
 | ID  | DESCRIPTION |
