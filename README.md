@@ -10,11 +10,38 @@
 | 004 | Device shall supply 1 external CAN interface. |
 | 005 | Device shall supply 1 on-board SPI interface. |
 | 006 | Device shall supply 1 on-board I2C interface. |
+| 007 | Device shall use a TCXO to generate a stable reference clock. |
 
 ## External interfaces
 
 - UART (PHY TBD)
+- CAN
 - ARM CoreSight-10
+
+## Schematic strategy
+
+The schematics for this project is laid out across multiple sheets. 
+The top-level sheets contain functional block diagrams. 
+The functional circuit blocks themselves are implemented in the lower-level sheets.
+
+## PCB Layout strategy
+
+A 4-layer controlled impedance stackup is used.
+
+|Layer       | Designation |
+|------------|-------------|
+| L1 (Top)   | SIG         |
+| L2         | GND         |
+| L3         | GND         |
+| L3 (Bottom)| SIG+PWR     |
+
+Functional circuit blocks are routed first. The blocks are then laid out and connected.
+
+High-speed electrical interfaces are routed with controlled impedance transmission lines.
+
+Priority is given to routing high-speed interfaces.
+
+Sensitive analog circuitry is separated from digital circuitry.
 
 ## References
 
