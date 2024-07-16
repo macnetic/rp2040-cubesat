@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "b3a0ade5-7419-402b-90cc-3f52c2e9d689")
 	(paper "A4")
+	(title_block
+		(title "CubeSat RP2040 Board")
+		(rev "1")
+		(company "Magnus Oksbøl Therkelsen")
+		(comment 1 "Author: Magnus Oksbøl Therkelsen")
+		(comment 2 "Checked by: ")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers hide)
@@ -126,7 +133,7 @@
 				)
 			)
 		)
-		(symbol "cubesat_rp2040:FTSH-105-01-L-DV-007"
+		(symbol "cubesat_rp2040:CoreSight_10_Conn"
 			(pin_names
 				(offset 1.016)
 			)
@@ -134,7 +141,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -8.12 7.62 0)
+				(at -9.398 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -142,7 +149,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "FTSH-105-01-L-DV-007"
+			(property "Value" "CoreSight_10_Conn"
 				(at -7.62 -10.16 0)
 				(effects
 					(font
@@ -209,10 +216,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "FTSH-105-01-L-DV-007_0_0"
+			(symbol "CoreSight_10_Conn_0_0"
 				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
+					(start -8.89 7.62)
+					(end 8.89 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -221,10 +228,12 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "CoreSight_10_Conn_1_0"
 				(pin passive line
-					(at -12.7 5.08 0)
+					(at -13.97 5.08 0)
 					(length 5.08)
-					(name "01"
+					(name "VTREF"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -240,9 +249,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 5.08 180)
+					(at 13.97 5.08 180)
 					(length 5.08)
-					(name "02"
+					(name "TMS/SWDIO"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -258,9 +267,9 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 2.54 0)
+					(at -13.97 2.54 0)
 					(length 5.08)
-					(name "03"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -276,9 +285,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 2.54 180)
+					(at 13.97 2.54 180)
 					(length 5.08)
-					(name "04"
+					(name "TCK/SWCLK"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -294,9 +303,9 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 0 0)
+					(at -13.97 0 0)
 					(length 5.08)
-					(name "05"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -312,9 +321,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
+					(at 13.97 0 180)
 					(length 5.08)
-					(name "06"
+					(name "TDO/SWO"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -330,9 +339,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -2.54 180)
+					(at 13.97 -2.54 180)
 					(length 5.08)
-					(name "08"
+					(name "TDI"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -348,9 +357,9 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 -5.08 0)
+					(at -13.97 -5.08 0)
 					(length 5.08)
-					(name "09"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -366,9 +375,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -5.08 180)
+					(at 13.97 -5.08 180)
 					(length 5.08)
-					(name "10"
+					(name "nSRST"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -603,31 +612,31 @@
 		)
 	)
 	(junction
-		(at 144.78 90.17)
+		(at 158.75 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14dac7cb-9f42-4083-8d2f-d0c47f06042d")
 	)
 	(junction
-		(at 154.94 100.33)
+		(at 168.91 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2832d9f4-fbec-4174-ab52-956cbb51a191")
 	)
 	(junction
-		(at 149.86 92.71)
+		(at 163.83 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73c00c0b-537c-4bc1-aed7-2a35074c2131")
 	)
 	(junction
-		(at 105.41 95.25)
+		(at 102.87 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "756bfe09-a34a-472f-94c3-2c53ebbe52c5")
 	)
 	(junction
-		(at 105.41 100.33)
+		(at 102.87 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79834328-acee-4c92-8e13-91c160cab6eb")
@@ -641,7 +650,7 @@
 		(uuid "817e71c1-1a06-4c5c-af83-97cc78e6db76")
 	)
 	(bus_entry
-		(at 166.37 95.25)
+		(at 180.34 95.25)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -650,7 +659,7 @@
 		(uuid "db31fee5-14c9-4e2f-b0da-add3fccc0c19")
 	)
 	(bus_entry
-		(at 168.91 95.25)
+		(at 182.88 95.25)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -660,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 105.41 100.33)
+			(xy 102.87 95.25) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 90.17) (xy 105.41 90.17)
+			(xy 102.87 90.17) (xy 111.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 144.78 80.01)
+			(xy 158.75 77.47) (xy 158.75 80.01)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 100.33) (xy 114.3 100.33)
+			(xy 102.87 100.33) (xy 111.76 100.33)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +709,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 100.33) (xy 105.41 102.87)
+			(xy 139.7 90.17) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dff839-5c8a-4aa2-9ef0-7afee5dfb7f2")
+	)
+	(wire
+		(pts
+			(xy 102.87 100.33) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 90.17) (xy 168.91 90.17)
+			(xy 158.75 90.17) (xy 182.88 90.17)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 87.63) (xy 144.78 90.17)
+			(xy 158.75 87.63) (xy 158.75 90.17)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +749,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 166.37 95.25)
+			(xy 180.34 92.71) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -740,17 +759,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 154.94 100.33)
+			(xy 139.7 100.33) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d911319-26d6-4dbd-9323-200f1e26a327")
+		(uuid "4c1896e3-56ae-4464-a526-945dc804467c")
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 105.41 95.25)
+			(xy 102.87 92.71) (xy 102.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 149.86 102.87)
+			(xy 163.83 92.71) (xy 163.83 102.87)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 114.3 95.25)
+			(xy 102.87 95.25) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -780,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 166.37 92.71)
+			(xy 163.83 92.71) (xy 180.34 92.71)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 90.17) (xy 168.91 95.25)
+			(xy 182.88 90.17) (xy 182.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 100.33) (xy 154.94 100.33)
+			(xy 204.47 100.33) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -808,9 +827,19 @@
 		)
 		(uuid "8a68f978-4938-447b-96f2-9b96d1e805f7")
 	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 163.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab5edb3-c853-474e-9262-2838c3ea66a8")
+	)
 	(bus
 		(pts
-			(xy 171.45 97.79) (xy 190.5 97.79)
+			(xy 185.42 97.79) (xy 204.47 97.79)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 110.49) (xy 149.86 113.03)
+			(xy 163.83 110.49) (xy 163.83 113.03)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +859,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 97.79) (xy 171.45 97.79)
+			(xy 182.88 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +869,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 92.71) (xy 105.41 92.71)
+			(xy 102.87 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -850,7 +879,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 87.63) (xy 154.94 100.33)
+			(xy 168.91 87.63) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -860,27 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 92.71) (xy 149.86 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d58c036e-ddad-4b15-b49c-2b4ad972e49f")
-	)
-	(wire
-		(pts
-			(xy 144.78 90.17) (xy 139.7 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97491c4-0d65-4a57-9511-563f8ec73945")
-	)
-	(wire
-		(pts
-			(xy 105.41 90.17) (xy 105.41 87.63)
+			(xy 102.87 90.17) (xy 102.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -890,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 154.94 80.01)
+			(xy 168.91 77.47) (xy 168.91 80.01)
 		)
 		(stroke
 			(width 0)
@@ -910,7 +919,7 @@
 		(uuid "8290978a-f4d9-4310-95b2-15bebd82f13b")
 	)
 	(label "SWDIO"
-		(at 166.37 90.17 180)
+		(at 152.4 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -920,8 +929,8 @@
 		)
 		(uuid "0fc623ea-1f9b-466a-a1a0-731b8b4feca6")
 	)
-	(label "SWDCLK"
-		(at 166.37 92.71 180)
+	(label "SWCLK"
+		(at 152.4 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -931,9 +940,9 @@
 		)
 		(uuid "d82a4511-061a-4163-bf94-8c8b02fde990")
 	)
-	(hierarchical_label "{SWDCLK SWDIO}"
+	(hierarchical_label "{SWCLK SWDIO}"
 		(shape bidirectional)
-		(at 190.5 97.79 0)
+		(at 204.47 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -943,9 +952,9 @@
 		)
 		(uuid "4dacf50b-f5ec-4efe-ae54-f4b62fc32d3f")
 	)
-	(hierarchical_label "RUN"
+	(hierarchical_label "~{RESET}"
 		(shape output)
-		(at 190.5 100.33 0)
+		(at 204.47 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -957,7 +966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 106.68 180)
+		(at 163.83 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -965,8 +974,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "299709af-b175-4559-8606-9f516d8b76f5")
-		(property "Reference" "R8"
-			(at 152.4 105.41 0)
+		(property "Reference" "R402"
+			(at 166.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +984,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 152.4 107.95 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,8 +992,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 151.638 106.68 90)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 165.608 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +1002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 106.68 0)
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1011,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 106.68 0)
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1020,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 149.86 106.68 0)
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1029,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1206W4F1003T5E"
-			(at 149.86 106.68 0)
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,15 +1046,15 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "R8")
+					(reference "R402")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "cubesat_rp2040:FTSH-105-01-L-DV-007")
-		(at 127 95.25 0)
+		(lib_id "cubesat_rp2040:CoreSight_10_Conn")
+		(at 125.73 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1053,8 +1062,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36212241-a831-4e59-8b73-5a9c3bea9201")
-		(property "Reference" "J2"
-			(at 127 82.55 0)
+		(property "Reference" "J401"
+			(at 125.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1071,7 @@
 			)
 		)
 		(property "Value" "FTSH-105-01-L-DV-007"
-			(at 127 85.09 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1079,7 @@
 			)
 		)
 		(property "Footprint" "cubesat_rp2040:SAMTEC_FTSH-105-01-L-DV-007"
-			(at 127 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1098,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1107,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 127 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1117,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 127 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1127,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 127 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,22 +1139,22 @@
 		(pin "01"
 			(uuid "fdf6ebb5-ed99-481d-a604-8b61ba733fd0")
 		)
-		(pin "02"
+		(pin "04"
 			(uuid "f8eb2aa4-4c67-44d9-a8a1-38d6e7f4ef7f")
 		)
-		(pin "03"
+		(pin "05"
 			(uuid "9a591d1d-0e95-41ab-812d-e97cabafab73")
 		)
-		(pin "04"
+		(pin "08"
 			(uuid "69dc26be-5957-4b33-8cef-72fabe757085")
 		)
-		(pin "05"
+		(pin "06"
 			(uuid "b2195878-7b44-42f5-bc58-09479e4afe05")
 		)
-		(pin "06"
+		(pin "03"
 			(uuid "64a3d27e-da71-4612-9ab2-44264a3098f7")
 		)
-		(pin "08"
+		(pin "02"
 			(uuid "b1b6c1c5-9015-47d8-97fa-05c16a48ca3a")
 		)
 		(pin "09"
@@ -1157,7 +1166,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "J2")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -1165,7 +1174,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 154.94 77.47 0)
+		(at 168.91 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1173,8 +1182,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc6db11-546f-4530-ba28-7368720e86ac")
-		(property "Reference" "#PWR019"
-			(at 154.94 81.28 0)
+		(property "Reference" "#PWR0405"
+			(at 168.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1192,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 154.94 72.39 0)
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 77.47 0)
+			(at 168.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 77.47 0)
+			(at 168.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 154.94 77.47 0)
+			(at 168.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1232,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR019")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -1231,7 +1240,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 102.87 0)
+		(at 102.87 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1239,8 +1248,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c799b7c3-7edd-45dc-b0fa-e2356c04bd77")
-		(property "Reference" "#PWR016"
-			(at 105.41 109.22 0)
+		(property "Reference" "#PWR0402"
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 107.95 0)
+			(at 102.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 102.87 0)
+			(at 102.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 102.87 0)
+			(at 102.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 102.87 0)
+			(at 102.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1298,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR016")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -1297,7 +1306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 113.03 0)
+		(at 163.83 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1305,8 +1314,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7df62b-a30e-48c5-9f48-fdd930bb4fc8")
-		(property "Reference" "#PWR018"
-			(at 149.86 119.38 0)
+		(property "Reference" "#PWR0404"
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 118.11 0)
+			(at 163.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 113.03 0)
+			(at 163.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 113.03 0)
+			(at 163.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 113.03 0)
+			(at 163.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1364,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR018")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -1363,7 +1372,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 83.82 180)
+		(at 158.75 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1371,8 +1380,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1c1bbea-b33e-4b24-a30f-fe9b3437d300")
-		(property "Reference" "R7"
-			(at 147.32 82.55 0)
+		(property "Reference" "R401"
+			(at 161.29 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1390,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 147.32 85.09 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,8 +1398,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.558 83.82 90)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 160.528 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 83.82 0)
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1417,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 83.82 0)
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1426,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 144.78 83.82 0)
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1435,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1206W4F1003T5E"
-			(at 144.78 83.82 0)
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1452,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "R7")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -1451,7 +1460,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 105.41 87.63 0)
+		(at 102.87 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1459,8 +1468,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e31ac50e-0839-4ec0-9c4a-bc62988a0a9c")
-		(property "Reference" "#PWR015"
-			(at 105.41 91.44 0)
+		(property "Reference" "#PWR0401"
+			(at 102.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1478,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 105.41 82.55 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 87.63 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 87.63 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 87.63 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1518,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR015")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -1517,7 +1526,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 144.78 77.47 0)
+		(at 158.75 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1525,8 +1534,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12f52ab-66bf-499e-b6d6-82f07cad3968")
-		(property "Reference" "#PWR017"
-			(at 144.78 81.28 0)
+		(property "Reference" "#PWR0403"
+			(at 158.75 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +1544,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.78 72.39 0)
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 77.47 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 77.47 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 77.47 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1584,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "#PWR017")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -1583,7 +1592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 83.82 180)
+		(at 168.91 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1591,8 +1600,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b187fa-beee-4a1f-9099-ed4cd177265e")
-		(property "Reference" "R9"
-			(at 157.48 82.55 0)
+		(property "Reference" "R403"
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1610,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 157.48 85.09 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,8 +1618,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.718 83.82 90)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 170.688 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 83.82 0)
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1637,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 83.82 0)
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1646,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 154.94 83.82 0)
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1655,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1206W4F1003T5E"
-			(at 154.94 83.82 0)
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1672,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/5047da3d-75a3-46e1-87b7-3e807ce5a802"
-					(reference "R9")
+					(reference "R403")
 					(unit 1)
 				)
 			)

@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "bae6be56-875f-494a-b0a1-8af26dd46bb5")
 	(paper "A4")
+	(title_block
+		(title "CubeSat RP2040 Board")
+		(rev "1")
+		(company "Magnus Oksbøl Therkelsen")
+		(comment 1 "Author: Magnus Oksbøl Therkelsen")
+		(comment 2 "Checked by: ")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -845,31 +852,31 @@
 		)
 	)
 	(junction
-		(at 149.86 101.6)
+		(at 137.16 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ef97c6e-fd9e-4d7e-9fb5-a2d93dd39086")
 	)
 	(junction
-		(at 165.1 80.01)
+		(at 152.4 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "689d3a31-812d-4a13-9da7-6ecf7a47a1e1")
 	)
 	(junction
-		(at 147.32 101.6)
+		(at 134.62 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b689d080-77e3-4543-99f4-9b9c7cbcc8b4")
 	)
 	(junction
-		(at 165.1 86.36)
+		(at 152.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7c8d66c-bf18-4d53-bb55-b47750c7f751")
 	)
 	(bus_entry
-		(at 212.09 110.49)
+		(at 176.53 106.68)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -878,7 +885,7 @@
 		(uuid "0f78c7ed-2517-412e-b119-6d62117ea130")
 	)
 	(bus_entry
-		(at 212.09 102.87)
+		(at 176.53 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -887,7 +894,7 @@
 		(uuid "3866f217-42d7-42e1-baf0-e8b05f47f071")
 	)
 	(bus_entry
-		(at 212.09 129.54)
+		(at 176.53 125.73)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -896,7 +903,7 @@
 		(uuid "6f01119a-8746-44b7-83f0-8283386ee56a")
 	)
 	(bus_entry
-		(at 212.09 107.95)
+		(at 176.53 104.14)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -905,7 +912,7 @@
 		(uuid "6fab9659-8bb9-4db7-af8c-a1a2fb56a9a0")
 	)
 	(bus_entry
-		(at 212.09 100.33)
+		(at 176.53 96.52)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -914,7 +921,7 @@
 		(uuid "7e9e94bf-ebbd-4177-abdc-f40c97573bc7")
 	)
 	(bus_entry
-		(at 212.09 127)
+		(at 176.53 123.19)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -924,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 149.86 101.6)
+			(xy 137.16 92.71) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +941,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 149.86 109.22)
+			(xy 137.16 123.19) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +951,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 110.49) (xy 212.09 110.49)
+			(xy 110.49 97.79) (xy 110.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af5d820-825e-4ca5-928b-1cf23e38c7d9")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -954,7 +971,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 113.03) (xy 214.63 129.54)
+			(xy 179.07 109.22) (xy 179.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -964,7 +981,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 80.01) (xy 165.1 86.36)
+			(xy 152.4 76.2) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 149.86 86.36)
+			(xy 137.16 85.09) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +1001,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 129.54) (xy 147.32 129.54)
+			(xy 176.53 125.73) (xy 134.62 125.73)
 		)
 		(stroke
 			(width 0)
@@ -994,7 +1011,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 102.87) (xy 214.63 105.41)
+			(xy 179.07 99.06) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1004,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 165.1 86.36)
+			(xy 137.16 82.55) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1014,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 77.47) (xy 165.1 80.01)
+			(xy 152.4 73.66) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 82.55) (xy 172.72 80.01)
+			(xy 160.02 78.74) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1034,7 +1051,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 134.62) (xy 240.03 134.62)
+			(xy 179.07 130.81) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1044,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 102.87) (xy 212.09 102.87)
+			(xy 165.1 99.06) (xy 176.53 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1054,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 107.95) (xy 212.09 107.95)
+			(xy 165.1 104.14) (xy 176.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1062,19 +1079,9 @@
 		)
 		(uuid "8afec4f6-3317-4739-b3f7-cf2c223332b8")
 	)
-	(wire
-		(pts
-			(xy 123.19 86.36) (xy 123.19 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6b2725-8e85-466b-b1f6-e29618defb5a")
-	)
 	(bus
 		(pts
-			(xy 214.63 132.08) (xy 214.63 134.62)
+			(xy 179.07 128.27) (xy 179.07 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1084,7 +1091,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 129.54) (xy 214.63 132.08)
+			(xy 179.07 125.73) (xy 179.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1094,7 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 86.36) (xy 120.65 91.44)
+			(xy 107.95 93.98) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1104,7 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 152.4 101.6)
+			(xy 137.16 97.79) (xy 139.7 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1121,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 147.32 101.6)
+			(xy 130.81 97.79) (xy 134.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1131,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 101.6) (xy 125.73 101.6)
+			(xy 110.49 97.79) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 149.86 101.6)
+			(xy 134.62 97.79) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 165.1 80.01)
+			(xy 160.02 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1161,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 105.41) (xy 214.63 110.49)
+			(xy 179.07 101.6) (xy 179.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 172.72 90.17)
+			(xy 160.02 83.82) (xy 160.02 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 129.54) (xy 147.32 101.6)
+			(xy 134.62 125.73) (xy 134.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1191,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 152.4 109.22)
+			(xy 137.16 105.41) (xy 139.7 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 165.1 95.25)
+			(xy 152.4 82.55) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 115.57) (xy 165.1 118.11)
+			(xy 152.4 111.76) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1221,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 110.49) (xy 214.63 113.03)
+			(xy 179.07 106.68) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1231,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 149.86 127)
+			(xy 176.53 123.19) (xy 137.16 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 100.33) (xy 212.09 100.33)
+			(xy 165.1 96.52) (xy 176.53 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1251,7 @@
 	)
 	(text "Place decoupling caps near VCC"
 		(exclude_from_sim no)
-		(at 180.34 74.93 0)
+		(at 167.64 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1254,7 +1261,7 @@
 		(uuid "e63f7370-e9ac-4caa-a9b2-0fa31c0b8b30")
 	)
 	(label "QSPI.SD1"
-		(at 212.09 102.87 180)
+		(at 176.53 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1265,7 +1272,7 @@
 		(uuid "1c6af2e3-d4a9-4696-902f-3f1e64405207")
 	)
 	(label "QSPI.~{SS}"
-		(at 212.09 129.54 180)
+		(at 176.53 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1276,7 +1283,7 @@
 		(uuid "26b51fc5-68f7-4726-a0e8-380bbf977f15")
 	)
 	(label "QSPI.SD3"
-		(at 212.09 110.49 180)
+		(at 176.53 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1287,7 +1294,7 @@
 		(uuid "3da0c5c6-4349-4ea7-b3df-f2e447f25b42")
 	)
 	(label "QSPI.SCLK"
-		(at 212.09 127 180)
+		(at 176.53 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1298,7 +1305,7 @@
 		(uuid "42e02669-bd6f-4b49-b51f-98bbe57740a7")
 	)
 	(label "~{USB_BOOT}"
-		(at 123.19 88.9 0)
+		(at 110.49 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1309,7 +1316,7 @@
 		(uuid "44794af1-563e-482d-b37a-f2873a46867d")
 	)
 	(label "QSPI.SD2"
-		(at 212.09 107.95 180)
+		(at 176.53 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1320,7 +1327,7 @@
 		(uuid "47976eab-b0d7-4ab4-a9e6-9f56d319b3b2")
 	)
 	(label "QSPI.SD0"
-		(at 212.09 100.33 180)
+		(at 176.53 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1332,7 +1339,7 @@
 	)
 	(hierarchical_label "QSPI{SCLK SD[0..3] ~{SS}}"
 		(shape bidirectional)
-		(at 240.03 134.62 0)
+		(at 181.61 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1344,15 +1351,16 @@
 	)
 	(symbol
 		(lib_id "cubesat_rp2040:W25Q128JVS")
-		(at 165.1 105.41 0)
+		(at 152.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1bb6939a-d7a6-4ec7-b284-b65075ce229a")
-		(property "Reference" "U4"
-			(at 168.91 114.3 0)
+		(property "Reference" "U701"
+			(at 154.5941 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1369,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVS"
-			(at 168.91 116.84 0)
+			(at 154.5941 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1378,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 165.1 132.08 0)
+			(at 152.4 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1387,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 165.1 129.54 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1396,7 @@
 			)
 		)
 		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 165.1 105.41 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1431,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "U4")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -1431,7 +1439,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 123.19 81.28 270)
+		(at 110.49 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1440,8 +1448,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba0cb6d-1eb8-49e2-841b-c928f4134766")
-		(property "Reference" "J5"
-			(at 125.73 80.0099 90)
+		(property "Reference" "J701"
+			(at 113.03 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1458,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 125.73 82.5499 90)
+			(at 113.03 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +1467,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 123.19 81.28 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 81.28 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1485,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.19 81.28 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1502,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "J5")
+					(reference "J701")
 					(unit 1)
 				)
 			)
@@ -1502,7 +1510,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 101.6 270)
+		(at 127 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1510,8 +1518,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ec8eda-773f-4bf0-9c80-f1aed37e477b")
-		(property "Reference" "R12"
-			(at 129.54 95.25 90)
+		(property "Reference" "R701"
+			(at 127 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,15 +1527,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 129.54 97.79 90)
+			(at 127 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 129.54 99.822 90)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 127 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 101.6 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1553,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 101.6 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1562,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 129.54 101.6 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1571,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1206W4F1001T5E"
-			(at 129.54 101.6 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1588,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "R12")
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -1588,7 +1596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 90.17 0)
+		(at 160.02 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1596,8 +1604,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991ece14-de0f-4eed-8314-2fe378f65e1a")
-		(property "Reference" "#PWR031"
-			(at 172.72 96.52 0)
+		(property "Reference" "#PWR0704"
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,15 +1614,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 95.25 0)
+			(at 157.48 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 90.17 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 90.17 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 90.17 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1655,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "#PWR031")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -1654,7 +1663,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 118.11 0)
+		(at 152.4 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1662,8 +1671,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae11a56b-4d44-45e5-b665-800c0f5af7a0")
-		(property "Reference" "#PWR030"
-			(at 165.1 124.46 0)
+		(property "Reference" "#PWR0703"
+			(at 152.4 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1681,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 123.19 0)
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 118.11 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 118.11 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 118.11 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1721,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "#PWR030")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1729,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 92.71 0)
+		(at 137.16 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1728,26 +1737,26 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b79cc330-9d57-470b-8a83-5dd9f1456f11")
-		(property "Reference" "R13"
-			(at 152.4 91.4399 0)
+		(property "Reference" "R702"
+			(at 134.62 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 152.4 93.9799 0)
+			(at 134.62 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.082 92.71 90)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 135.382 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 92.71 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1774,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 92.71 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1783,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 149.86 92.71 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1792,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1206W4F1002T5E"
-			(at 149.86 92.71 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1809,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "R13")
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -1808,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 165.1 77.47 0)
+		(at 152.4 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1816,8 +1825,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba417a5f-335d-446c-9a9a-72c8b8d02942")
-		(property "Reference" "#PWR029"
-			(at 165.1 81.28 0)
+		(property "Reference" "#PWR0702"
+			(at 152.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1835,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 165.1 72.39 0)
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 77.47 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 77.47 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 77.47 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1875,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "#PWR029")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -1874,7 +1883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 91.44 0)
+		(at 107.95 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1882,8 +1891,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3e2976e-e905-47af-aa62-67a191454bab")
-		(property "Reference" "#PWR028"
-			(at 120.65 97.79 0)
+		(property "Reference" "#PWR0701"
+			(at 107.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 96.52 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 91.44 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 91.44 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 91.44 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1941,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "#PWR028")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1949,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 85.09 0)
+		(at 160.02 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1948,8 +1957,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc46f1c4-8cb7-4038-af3c-f3d62cb3c7de")
-		(property "Reference" "C19"
-			(at 175.26 83.8263 0)
+		(property "Reference" "C701"
+			(at 162.56 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1967,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 175.26 86.3663 0)
+			(at 162.56 82.5562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,8 +1975,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 172.72 85.09 0)
+		(property "Footprint" "cubesat_rp2040:C_0402_1005Metric"
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 85.09 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +1994,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 85.09 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2003,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 172.72 85.09 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2012,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B104KBCNNNC"
-			(at 172.72 85.09 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2029,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/b0096d86-af2c-457d-b29d-86011b9b0d63"
-					(reference "C19")
+					(reference "C701")
 					(unit 1)
 				)
 			)

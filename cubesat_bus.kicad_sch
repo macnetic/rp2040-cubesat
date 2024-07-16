@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "e1c74e38-8be5-4b35-9645-577d25ddc4d4")
 	(paper "A4")
+	(title_block
+		(title "CubeSat RP2040 Board")
+		(rev "1")
+		(company "Magnus Oksbøl Therkelsen")
+		(comment 1 "Author: Magnus Oksbøl Therkelsen")
+		(comment 2 "Checked by: ")
+	)
 	(lib_symbols
 		(symbol "cubesat_rp2040:ESQ-126-39-G-D"
 			(pin_names
@@ -1465,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2213e970-c4fb-4987-abc5-27d381d0d483")
-		(property "Reference" "H2"
+		(property "Reference" "H602"
 			(at 161.29 26.67 0)
 			(effects
 				(font
@@ -1748,7 +1755,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/0c29b30e-7660-45bf-be81-5710013bc73b"
-					(reference "H2")
+					(reference "H602")
 					(unit 1)
 				)
 			)
@@ -1764,7 +1771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b2f5d5f-55a0-4af0-b5cb-565ebf118699")
-		(property "Reference" "H1"
+		(property "Reference" "H601"
 			(at 110.49 26.67 0)
 			(effects
 				(font
@@ -2047,7 +2054,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/0c29b30e-7660-45bf-be81-5710013bc73b"
-					(reference "H1")
+					(reference "H601")
 					(unit 1)
 				)
 			)

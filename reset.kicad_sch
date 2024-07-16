@@ -4,16 +4,24 @@
 	(generator_version "8.0")
 	(uuid "77fcec44-0be6-4301-8a02-85637d9ceb73")
 	(paper "A4")
+	(title_block
+		(title "CubeSat RP2040 Board")
+		(rev "1")
+		(company "Magnus Oksbøl Therkelsen")
+		(comment 1 "Author: Magnus Oksbøl Therkelsen")
+		(comment 2 "Checked by: ")
+	)
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.254 1.778 0)
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +29,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,7 +39,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "capacitor cap"
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,13 +83,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -90,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -101,10 +109,10 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "C_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
+					(at 0 3.81 270)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -121,8 +129,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
+					(at 0 -3.81 90)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -624,20 +632,20 @@
 		)
 	)
 	(junction
-		(at 157.48 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "087be1e6-db09-403f-af0d-b282e0f7d1b5")
-	)
-	(junction
 		(at 152.4 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f335087-1448-4a09-9179-ddeb799b76ac")
 	)
+	(junction
+		(at 157.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "708a06f6-fa65-4c9b-8719-5f1a09a88f8f")
+	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 165.1 95.25)
+			(xy 152.4 95.25) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
@@ -654,16 +662,6 @@
 			(type default)
 		)
 		(uuid "1ef35928-1add-491f-8dfa-b73ee0ca2ef5")
-	)
-	(wire
-		(pts
-			(xy 157.48 95.25) (xy 157.48 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f3d4ca8-756d-45cd-a60c-ad91c27537dc")
 	)
 	(wire
 		(pts
@@ -707,23 +705,33 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 105.41) (xy 157.48 110.49)
+			(xy 157.48 106.68) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67354f2b-548f-458b-bb4e-6371ac17f21b")
+		(uuid "9451cec9-995a-4a24-b0fb-0fef152d6e41")
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 157.48 95.25)
+			(xy 157.48 95.25) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5bded8a-34c8-4eae-8691-b224a678a4fe")
+		(uuid "b0823727-5af7-4ec6-8c1b-6a3a28420a0d")
+	)
+	(wire
+		(pts
+			(xy 157.48 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b78785-e046-4029-a34d-db6df1d36bf0")
 	)
 	(wire
 		(pts
@@ -735,7 +743,7 @@
 		)
 		(uuid "db9359d1-9c89-42a1-a30a-481d9e279823")
 	)
-	(hierarchical_label "RUN"
+	(hierarchical_label "~{RESET}"
 		(shape output)
 		(at 165.1 95.25 0)
 		(fields_autoplaced yes)
@@ -748,7 +756,7 @@
 		(uuid "48cf848a-15e7-4b03-988b-8204baa0f2d7")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C")
 		(at 157.48 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -757,8 +765,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0286bab2-bdd2-4b88-a6ea-db0f467933c8")
-		(property "Reference" "C22"
-			(at 160.02 101.6063 0)
+		(property "Reference" "C901"
+			(at 161.29 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,8 +774,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 160.02 104.1463 0)
+		(property "Value" "C"
+			(at 161.29 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,8 +783,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 157.48 102.87 0)
+		(property "Footprint" "cubesat_rp2040:C_0402_1005Metric"
+			(at 158.4452 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 157.48 102.87 0)
 			(effects
 				(font
@@ -829,7 +837,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "C22")
+					(reference "C901")
 					(unit 1)
 				)
 			)
@@ -845,7 +853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1441c3fd-fe4f-4fde-9604-cdea68fbb754")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0901"
 			(at 134.62 116.84 0)
 			(effects
 				(font
@@ -895,7 +903,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "#PWR033")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -911,7 +919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d0e36d-492b-4d10-b9a5-f44fe168792d")
-		(property "Reference" "R15"
+		(property "Reference" "R901"
 			(at 143.51 88.9 90)
 			(effects
 				(font
@@ -927,7 +935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
 			(at 143.51 93.472 90)
 			(effects
 				(font
@@ -981,7 +989,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "R15")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -997,7 +1005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e34a49e-6f18-45f9-8771-6de45d4bf205")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0903"
 			(at 157.48 116.84 0)
 			(effects
 				(font
@@ -1047,7 +1055,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "#PWR035")
+					(reference "#PWR0903")
 					(unit 1)
 				)
 			)
@@ -1063,7 +1071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18b1d54-3b2c-4bf6-892d-51403b034861")
-		(property "Reference" "R16"
+		(property "Reference" "R902"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -1081,7 +1089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
 			(at 150.622 88.9 90)
 			(effects
 				(font
@@ -1135,7 +1143,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "R16")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -1151,7 +1159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47f7754-fac6-46f6-a4f5-4be51d3f3b96")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0902"
 			(at 152.4 86.36 0)
 			(effects
 				(font
@@ -1201,7 +1209,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "#PWR034")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
@@ -1217,7 +1225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae7332c0-b4ed-4f6e-b414-c872a3b75f76")
-		(property "Reference" "SW1"
+		(property "Reference" "SW901"
 			(at 135.89 101.6 90)
 			(effects
 				(font
@@ -1271,7 +1279,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "SW1")
+					(reference "SW901")
 					(unit 1)
 				)
 			)

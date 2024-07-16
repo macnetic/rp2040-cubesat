@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "CubeSat RP2040 Board")
+		(date "2024-07-16")
 		(rev "1")
+		(company "Magnus Oksbøl Therkelsen")
 		(comment 1 "Author: Magnus Oksbøl Therkelsen")
 		(comment 2 "Checked by: ")
 	)
@@ -133,20 +135,36 @@
 		)
 	)
 	(junction
-		(at 107.95 109.22)
+		(at 63.5 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ebd2b70-0f81-418b-8c39-d13d81fd7328")
+	)
+	(junction
+		(at 85.09 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7bbd81b-1a56-4777-894b-e1c59cb86bc9")
 	)
 	(junction
-		(at 107.95 93.98)
+		(at 85.09 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1ea90ca-6779-4dd2-9665-0343b62e821a")
 	)
 	(wire
 		(pts
-			(xy 107.95 109.22) (xy 107.95 121.92)
+			(xy 63.5 86.36) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022ddb98-3814-40e9-a6fe-98b79d2a3628")
+	)
+	(wire
+		(pts
+			(xy 85.09 137.16) (xy 85.09 149.86)
 		)
 		(stroke
 			(width 0)
@@ -156,7 +174,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 124.46) (xy 114.3 105.41)
+			(xy 91.44 152.4) (xy 91.44 133.35)
 		)
 		(stroke
 			(width 0)
@@ -166,27 +184,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 60.96) (xy 120.65 60.96)
+			(xy 63.5 80.01) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "250b9d41-ca3a-48d3-9821-301e6c772970")
-	)
-	(bus
-		(pts
-			(xy 171.45 59.69) (xy 196.85 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a51dfc9-fce3-45f1-a145-d660d24bff2f")
+		(uuid "26b97ff5-e4c5-4d1e-a915-25e65e3109dc")
 	)
 	(wire
 		(pts
-			(xy 63.5 93.98) (xy 69.85 93.98)
+			(xy 34.29 121.92) (xy 40.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -196,7 +204,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 93.98) (xy 107.95 93.98)
+			(xy 63.5 38.1) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e1ddad-b5bc-49db-b83e-c082ffc4ea6d")
+	)
+	(wire
+		(pts
+			(xy 66.04 121.92) (xy 85.09 121.92)
 		)
 		(stroke
 			(width 0)
@@ -206,7 +224,7 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 73.66) (xy 120.65 73.66)
+			(xy 66.04 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -216,7 +234,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 120.65 93.98)
+			(xy 85.09 121.92) (xy 152.4 121.92)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +244,7 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 124.46) (xy 114.3 124.46)
+			(xy 66.04 152.4) (xy 91.44 152.4)
 		)
 		(stroke
 			(width 0)
@@ -236,7 +254,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 87.63) (xy 101.6 90.17)
+			(xy 78.74 115.57) (xy 78.74 118.11)
 		)
 		(stroke
 			(width 0)
@@ -246,7 +264,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 107.95 109.22)
+			(xy 85.09 121.92) (xy 85.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -254,9 +272,29 @@
 		)
 		(uuid "725797af-7598-41de-85d1-02ffac888944")
 	)
+	(bus
+		(pts
+			(xy 50.8 33.02) (xy 76.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c18b75-b51e-417e-bd2e-1a0e3443baac")
+	)
 	(wire
 		(pts
-			(xy 95.25 121.92) (xy 107.95 121.92)
+			(xy 50.8 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8126d37d-586f-4c84-b411-2550b355e47b")
+	)
+	(wire
+		(pts
+			(xy 66.04 149.86) (xy 85.09 149.86)
 		)
 		(stroke
 			(width 0)
@@ -266,7 +304,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 58.42) (xy 120.65 58.42)
+			(xy 50.8 80.01) (xy 63.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -276,7 +314,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 109.22) (xy 107.95 109.22)
+			(xy 66.04 137.16) (xy 85.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -286,17 +324,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 57.15) (xy 196.85 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0e8b43-84c0-4b3d-8e1d-a19af72f992f")
-	)
-	(wire
-		(pts
-			(xy 171.45 69.85) (xy 177.8 69.85)
+			(xy 203.2 97.79) (xy 228.6 97.79)
 		)
 		(stroke
 			(width 0)
@@ -306,7 +334,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 105.41) (xy 120.65 105.41)
+			(xy 91.44 133.35) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -316,7 +344,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 95.25 90.17)
+			(xy 78.74 118.11) (xy 66.04 118.11)
 		)
 		(stroke
 			(width 0)
@@ -326,7 +354,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 90.17) (xy 69.85 90.17)
+			(xy 76.2 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead56863-7f22-4c2e-ac69-b655d46ebfd6")
+	)
+	(wire
+		(pts
+			(xy 34.29 118.11) (xy 40.64 118.11)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +453,7 @@
 		(uuid "dd70de25-c7d5-4dc6-86b6-542931763f27")
 	)
 	(label "LNM_ENABLE"
-		(at 63.5 93.98 180)
+		(at 34.29 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -426,7 +464,7 @@
 		(uuid "0acf429e-e026-45f3-addb-ce139b4f5900")
 	)
 	(label "LNM_ENABLE"
-		(at 177.8 69.85 0)
+		(at 228.6 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -437,7 +475,7 @@
 		(uuid "1c8f2b7f-2bb6-4341-a1f9-ae24075a6740")
 	)
 	(label "VBUS"
-		(at 63.5 90.17 180)
+		(at 34.29 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -447,20 +485,9 @@
 		)
 		(uuid "8f04a857-4f3d-4655-a4be-dab0fde0c0ef")
 	)
-	(label "VBUS"
-		(at 190.5 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c747fc1e-fff4-41cb-8799-53f65b754428")
-	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 87.63 0)
+		(at 78.74 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -468,8 +495,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "323bdcf4-5af4-47b0-a696-7ca277396da5")
-		(property "Reference" "#PWR07"
-			(at 101.6 91.44 0)
+		(property "Reference" "#PWR0101"
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,7 +505,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 101.6 82.55 0)
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 87.63 0)
+			(at 78.74 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,7 +522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 87.63 0)
+			(at 78.74 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,7 +531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 87.63 0)
+			(at 78.74 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,15 +545,15 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8"
-					(reference "#PWR07")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 204.47 85.09)
-		(size 17.78 20.32)
+		(at 254 25.4)
+		(size 25.4 127)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -537,7 +564,7 @@
 		)
 		(uuid "0c29b30e-7660-45bf-be81-5710013bc73b")
 		(property "Sheetname" "CubeSat Bus"
-			(at 204.47 84.3784 0)
+			(at 254 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +573,7 @@
 			)
 		)
 		(property "Sheetfile" "cubesat_bus.kicad_sch"
-			(at 204.47 104.7246 0)
+			(at 254 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,7 +590,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 106.68)
+		(at 40.64 134.62)
 		(size 25.4 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -575,7 +602,7 @@
 		)
 		(uuid "1dd649c8-aa8e-49cc-bb70-2cb98c30ad65")
 		(property "Sheetname" "Reset button"
-			(at 69.85 105.9684 0)
+			(at 40.64 133.9084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,7 +611,7 @@
 			)
 		)
 		(property "Sheetfile" "reset.kicad_sch"
-			(at 69.85 112.3446 0)
+			(at 40.64 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,8 +619,8 @@
 				(justify left top)
 			)
 		)
-		(pin "RUN" output
-			(at 95.25 109.22 0)
+		(pin "~{RESET}" output
+			(at 66.04 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +638,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 118.11)
+		(at 40.64 146.05)
 		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -623,7 +650,7 @@
 		)
 		(uuid "5047da3d-75a3-46e1-87b7-3e807ce5a802")
 		(property "Sheetname" "Debug"
-			(at 69.85 117.3984 0)
+			(at 40.64 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -632,7 +659,7 @@
 			)
 		)
 		(property "Sheetfile" "debug.kicad_sch"
-			(at 69.85 128.8546 0)
+			(at 40.64 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,8 +667,8 @@
 				(justify left top)
 			)
 		)
-		(pin "RUN" output
-			(at 95.25 121.92 0)
+		(pin "~{RESET}" output
+			(at 66.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -650,8 +677,8 @@
 			)
 			(uuid "13808d33-6718-4052-b8f8-f49975a0f21a")
 		)
-		(pin "{SWDCLK SWDIO}" bidirectional
-			(at 95.25 124.46 0)
+		(pin "{SWCLK SWDIO}" bidirectional
+			(at 66.04 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +696,7 @@
 		)
 	)
 	(sheet
-		(at 120.65 54.61)
+		(at 152.4 82.55)
 		(size 50.8 73.66)
 		(fields_autoplaced yes)
 		(stroke
@@ -681,7 +708,7 @@
 		)
 		(uuid "51790321-3d2e-4c59-90a8-bc0a09a2d3fa")
 		(property "Sheetname" "RP2040"
-			(at 120.65 53.8984 0)
+			(at 152.4 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,7 +717,7 @@
 			)
 		)
 		(property "Sheetfile" "rp2040.kicad_sch"
-			(at 120.65 128.8546 0)
+			(at 152.4 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,7 +726,7 @@
 			)
 		)
 		(pin "XIN" input
-			(at 120.65 58.42 180)
+			(at 152.4 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,18 +735,8 @@
 			)
 			(uuid "1006a2c7-130a-4ee4-9fc9-b323846d54b2")
 		)
-		(pin "XOUT" input
-			(at 120.65 60.96 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9cea2b64-1179-4c0c-ae0d-7ea8d5a3e430")
-		)
 		(pin "RUN" input
-			(at 120.65 93.98 180)
+			(at 152.4 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,7 +746,7 @@
 			(uuid "6ce4b518-a897-4555-ad8e-d44f37f71257")
 		)
 		(pin "QSPI{SCLK SD[0..3] ~{SS}}" bidirectional
-			(at 120.65 73.66 180)
+			(at 152.4 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,8 +755,8 @@
 			)
 			(uuid "fae9906c-858e-428b-a332-a464f0ef2bc7")
 		)
-		(pin "{SWDCLK SWDIO}" bidirectional
-			(at 120.65 105.41 180)
+		(pin "{SWCLK SWDIO}" bidirectional
+			(at 152.4 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +766,7 @@
 			(uuid "76211dee-be1d-4563-a6c8-564942ee320e")
 		)
 		(pin "USB{D+ D-}" bidirectional
-			(at 171.45 59.69 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +776,7 @@
 			(uuid "89c6a0b7-b565-459f-bf6e-7a35733cc5f0")
 		)
 		(pin "LNM_ENABLE" output
-			(at 171.45 69.85 0)
+			(at 203.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,8 +794,8 @@
 		)
 	)
 	(sheet
-		(at 196.85 54.61)
-		(size 20.32 10.16)
+		(at 25.4 25.4)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -788,8 +805,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "827fa2e5-5cb5-4cf2-935c-289587867af3")
-		(property "Sheetname" "USB Type-C connector"
-			(at 196.85 53.8984 0)
+		(property "Sheetname" "USB Type C connector"
+			(at 25.4 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +815,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 196.85 65.3546 0)
+			(at 25.4 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -806,23 +823,23 @@
 				(justify left top)
 			)
 		)
-		(pin "USB{D+ D-}" bidirectional
-			(at 196.85 59.69 180)
+		(pin "USB_UP{D+ D-}" bidirectional
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "a60982b9-7208-4487-8d51-36411f43b72a")
 		)
 		(pin "VBUS" output
-			(at 196.85 57.15 180)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "b7dc55eb-3459-49bb-82de-3a0afec9fe6c")
 		)
@@ -835,8 +852,8 @@
 		)
 	)
 	(sheet
-		(at 69.85 54.61)
-		(size 25.4 10.16)
+		(at 25.4 76.2)
+		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -846,8 +863,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9f508e75-6f97-47bb-8ac1-2b188f21985e")
-		(property "Sheetname" "Crystal oscillator"
-			(at 69.85 53.8984 0)
+		(property "Sheetname" "Oscillator"
+			(at 25.4 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,8 +872,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "xo.kicad_sch"
-			(at 69.85 65.3546 0)
+		(property "Sheetfile" "RST3225N_TCXO_32M0.kicad_sch"
+			(at 25.4 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,8 +881,8 @@
 				(justify left top)
 			)
 		)
-		(pin "XIN" input
-			(at 95.25 58.42 0)
+		(pin "F_{out}" output
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,16 +890,6 @@
 				(justify right)
 			)
 			(uuid "e59a6344-3041-4a8c-8ed8-c12f71145b2b")
-		)
-		(pin "XOUT" input
-			(at 95.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5f8c68a3-8229-4a13-b33c-be4e5cace698")
 		)
 		(instances
 			(project "cubesat_rp2040"
@@ -893,7 +900,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 71.12)
+		(at 40.64 99.06)
 		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -905,7 +912,7 @@
 		)
 		(uuid "b0096d86-af2c-457d-b29d-86011b9b0d63")
 		(property "Sheetname" "Flash"
-			(at 69.85 70.4084 0)
+			(at 40.64 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,7 +921,7 @@
 			)
 		)
 		(property "Sheetfile" "flash.kicad_sch"
-			(at 69.85 81.8646 0)
+			(at 40.64 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +930,7 @@
 			)
 		)
 		(pin "QSPI{SCLK SD[0..3] ~{SS}}" bidirectional
-			(at 95.25 73.66 0)
+			(at 66.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +948,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 87.63)
+		(at 40.64 115.57)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -952,8 +959,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b2b22437-9947-4ed3-9503-79a566d701fc")
-		(property "Sheetname" "Power"
-			(at 69.85 86.9184 0)
+		(property "Sheetname" "VBUS to 3V3"
+			(at 40.64 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,8 +968,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 69.85 100.9146 0)
+		(property "Sheetfile" "L7983_5V_stepdown_3V3.kicad_sch"
+			(at 40.64 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +978,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 95.25 90.17 0)
+			(at 66.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,8 +987,8 @@
 			)
 			(uuid "78c4bbaf-d93b-45f6-bb44-65bce0c966e6")
 		)
-		(pin "~{RST}" output
-			(at 95.25 93.98 0)
+		(pin "~{RESET}" output
+			(at 66.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +998,7 @@
 			(uuid "94e9c10e-06c8-4384-b449-5b6330950429")
 		)
 		(pin "LNM_ENABLE" input
-			(at 69.85 93.98 180)
+			(at 40.64 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1008,7 @@
 			(uuid "121b353a-8516-47ce-ab5f-60f69076d3b0")
 		)
 		(pin "VIN" input
-			(at 69.85 90.17 180)
+			(at 40.64 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,6 +1021,114 @@
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 50.8 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1c6b8db-078e-41fc-9235-7650a5b7d659")
+		(property "Sheetname" "USB 2.0 Hub"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TUSB4041I_4-port_USB20_hub.kicad_sch"
+			(at 76.2 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DN0{D+ D-}" bidirectional
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f617fbf-1396-4033-be69-99b88f5cb6b0")
+		)
+		(pin "USB_DN1{D+ D-}" bidirectional
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9af223b1-f2e6-445f-8a06-e431450f8fc7")
+		)
+		(pin "USB_DN3{D+ D-}" bidirectional
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffd55e2b-cf93-4fdf-bfa5-e49b7eb98c6a")
+		)
+		(pin "USB_DN2{D+ D-}" bidirectional
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21f64fcb-129b-49d8-9214-e18271b25662")
+		)
+		(pin "VBUS" input
+			(at 76.2 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "46aa2714-f00d-4ca6-8cdb-15c74bc2b4ef")
+		)
+		(pin "USB_UP{D+ D-}" bidirectional
+			(at 76.2 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2ac46ea-30d8-4a04-ae27-6ca97c119a0d")
+		)
+		(pin "XIN" input
+			(at 76.2 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7c913f2-224e-47b6-a026-909c5b452578")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8"
+					(page "10")
 				)
 			)
 		)
