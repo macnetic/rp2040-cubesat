@@ -319,7 +319,7 @@
 	)
 	(model "${KIPRJMOD}/footprints/FTSH-105-01-L-DV-007.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.4)
 		)
 		(scale
 			(xyz 1 1 1)

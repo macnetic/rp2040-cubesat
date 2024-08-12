@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "e1c74e38-8be5-4b35-9645-577d25ddc4d4")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "CubeSat RP2040 Board")
 		(rev "1")
@@ -1472,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2213e970-c4fb-4987-abc5-27d381d0d483")
-		(property "Reference" "H602"
+		(property "Reference" "H502"
 			(at 161.29 26.67 0)
 			(effects
 				(font
@@ -1755,7 +1755,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/0c29b30e-7660-45bf-be81-5710013bc73b"
-					(reference "H602")
+					(reference "H502")
 					(unit 1)
 				)
 			)
@@ -1771,7 +1771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b2f5d5f-55a0-4af0-b5cb-565ebf118699")
-		(property "Reference" "H601"
+		(property "Reference" "H501"
 			(at 110.49 26.67 0)
 			(effects
 				(font
@@ -2054,7 +2054,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/0c29b30e-7660-45bf-be81-5710013bc73b"
-					(reference "H601")
+					(reference "H501")
 					(unit 1)
 				)
 			)

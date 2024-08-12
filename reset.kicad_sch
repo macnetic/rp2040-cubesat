@@ -765,7 +765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0286bab2-bdd2-4b88-a6ea-db0f467933c8")
-		(property "Reference" "C901"
+		(property "Reference" "C801"
 			(at 161.29 101.5999 0)
 			(effects
 				(font
@@ -837,7 +837,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "C901")
+					(reference "C801")
 					(unit 1)
 				)
 			)
@@ -853,7 +853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1441c3fd-fe4f-4fde-9604-cdea68fbb754")
-		(property "Reference" "#PWR0901"
+		(property "Reference" "#PWR0801"
 			(at 134.62 116.84 0)
 			(effects
 				(font
@@ -903,7 +903,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "#PWR0901")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -919,7 +919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d0e36d-492b-4d10-b9a5-f44fe168792d")
-		(property "Reference" "R901"
+		(property "Reference" "R801"
 			(at 143.51 88.9 90)
 			(effects
 				(font
@@ -989,7 +989,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "R901")
+					(reference "R801")
 					(unit 1)
 				)
 			)
@@ -1005,7 +1005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e34a49e-6f18-45f9-8771-6de45d4bf205")
-		(property "Reference" "#PWR0903"
+		(property "Reference" "#PWR0803"
 			(at 157.48 116.84 0)
 			(effects
 				(font
@@ -1055,7 +1055,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "#PWR0903")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -1071,7 +1071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18b1d54-3b2c-4bf6-892d-51403b034861")
-		(property "Reference" "R902"
+		(property "Reference" "R802"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -1143,7 +1143,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "R902")
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -1159,7 +1159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47f7754-fac6-46f6-a4f5-4be51d3f3b96")
-		(property "Reference" "#PWR0902"
+		(property "Reference" "#PWR0802"
 			(at 152.4 86.36 0)
 			(effects
 				(font
@@ -1209,7 +1209,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "#PWR0902")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1225,7 +1225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae7332c0-b4ed-4f6e-b414-c872a3b75f76")
-		(property "Reference" "SW901"
+		(property "Reference" "SW801"
 			(at 135.89 101.6 90)
 			(effects
 				(font
@@ -1279,7 +1279,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/1dd649c8-aa8e-49cc-bb70-2cb98c30ad65"
-					(reference "SW901")
+					(reference "SW801")
 					(unit 1)
 				)
 			)
