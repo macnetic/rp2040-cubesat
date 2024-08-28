@@ -41,11 +41,11 @@
           "height": 1.24,
           "width": 0.3
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.153,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.2
@@ -116,24 +116,24 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_text_height": 0.0,
+        "min_text_thickness": 0.0,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.0,
+        "min_via_diameter": 0.15,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -181,6 +181,8 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
+        0.15,
         0.2,
         0.3,
         0.4,
@@ -227,31 +229,35 @@
           "drill": 0.2
         },
         {
-          "diameter": 0.4,
+          "diameter": 0.35,
           "drill": 0.2
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
           "drill": 0.3
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.55,
           "drill": 0.4
         },
         {
-          "diameter": 0.7,
+          "diameter": 0.65,
           "drill": 0.5
         },
         {
-          "diameter": 0.8,
+          "diameter": 0.75,
           "drill": 0.6
         },
         {
-          "diameter": 0.9,
+          "diameter": 0.85,
           "drill": 0.7
         },
         {
-          "diameter": 1.0,
+          "diameter": 0.95,
           "drill": 0.8
         }
       ],
@@ -499,155 +505,172 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "1V1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "ADC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "QSPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RESET/RUN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SWD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1575,
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "USB2.0",
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "1V1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(132, 0, 132)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.135411,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.108821,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 132, 132)",
+        "track_width": 0.108821,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "QSPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(132, 132, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0,
+        "diff_pair_gap": 0.135411,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.108821,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "RS-485",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(204, 102, 0)",
+        "track_width": 0.0,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "SWD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "TMR_RESET",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0,
+        "diff_pair_gap": 0.109815,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.183188,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 82, 149)",
         "track_width": 0.0,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -656,23 +679,18 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/RP2040 - Unit 1/D+": "USB2.0",
-      "/RP2040 - Unit 1/D-": "USB2.0",
-      "/RP2040 - Unit 2/D+": "USB2.0",
-      "/RP2040 - Unit 2/D-": "USB2.0",
-      "/RP2040 - Unit 3/D+": "USB2.0",
-      "/RP2040 - Unit 3/D-": "USB2.0",
-      "/RP2040/D+": "USB2.0",
-      "/RP2040/D-": "USB2.0"
+      "/TMR voting/TMR_RESET_A": "TMR_RESET",
+      "/TMR voting/TMR_RESET_B": "TMR_RESET",
+      "/TMR voting/TMR_RESET_C": "TMR_RESET"
     },
     "netclass_patterns": [
       {
-        "netclass": "USB2.0",
-        "pattern": "/RP2040/USB.*"
+        "netclass": "USB",
+        "pattern": "*/*USB.D?"
       },
       {
         "netclass": "QSPI",
-        "pattern": "/Flash/QSPI.*"
+        "pattern": "*/QSPI.*"
       },
       {
         "netclass": "3V3",
@@ -688,15 +706,19 @@
       },
       {
         "netclass": "SWD",
-        "pattern": "/Debug/SW*"
+        "pattern": "*/SWCLK"
       },
       {
-        "netclass": "RESET/RUN",
-        "pattern": "*~{RESET}*"
+        "netclass": "CAN",
+        "pattern": "*/CAN*.*"
       },
       {
-        "netclass": "ADC",
-        "pattern": "/RP2040/ADC*"
+        "netclass": "RS-485",
+        "pattern": "*UART*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "*/SWDIO"
       }
     ]
   },
@@ -705,7 +727,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -716,7 +738,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "cubesat_rp2040.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -747,7 +769,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -762,28 +784,28 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": false
         },
         {
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -826,13 +848,37 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_Part_Number",
+          "name": "LCSC_Part_Number",
+          "show": true
         }
       ],
-      "filter_string": "R*",
+      "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Value"
+      "sort_asc": true,
+      "sort_field": "LCSC_Part_Number"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -887,10 +933,6 @@
       "Root"
     ],
     [
-      "b2b22437-9947-4ed3-9503-79a566d701fc",
-      "Power"
-    ],
-    [
       "827fa2e5-5cb5-4cf2-935c-289587867af3",
       "USB"
     ],
@@ -900,15 +942,35 @@
     ],
     [
       "51790321-3d2e-4c59-90a8-bc0a09a2d3fa",
-      "RP2040 - Unit 1"
+      "RP2040 - Unit A"
+    ],
+    [
+      "2da250c1-4d60-4a4c-9f26-8c26488f6e94",
+      "CAN"
     ],
     [
       "758c0c08-1cc3-4133-ad62-8ecc65a8bb90",
-      "RP2040 - Unit 2"
+      "RP2040 - Unit B"
+    ],
+    [
+      "2da250c1-4d60-4a4c-9f26-8c26488f6e94",
+      "CAN"
     ],
     [
       "44a9d8f8-b917-4495-a2e7-cb76b29a1175",
-      "RP2040 - Unit 3"
+      "RP2040 - Unit C"
+    ],
+    [
+      "2da250c1-4d60-4a4c-9f26-8c26488f6e94",
+      "CAN"
+    ],
+    [
+      "eb6c2f90-0da4-47e8-af11-e42ff745f21a",
+      "TMR voting"
+    ],
+    [
+      "82beede5-1b1c-4e8c-a04c-c9872cebc87d",
+      "LVDS"
     ]
   ],
   "text_variables": {}

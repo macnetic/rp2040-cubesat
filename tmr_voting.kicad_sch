@@ -1,0 +1,3688 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "10578884-5299-4090-99b9-985621655057")
+	(paper "A4")
+	(title_block
+		(title "CubeSat RP2040 Board")
+		(date "2024-08-28")
+		(rev "1")
+		(company "Magnus Oksbøl Therkelsen")
+		(comment 1 "Author: Magnus Oksbøl Therkelsen")
+		(comment 2 "Checked by: ")
+	)
+	(lib_symbols
+		(symbol "74xGxx:74LVC2G38"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC2G38"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual Gate NAND Open Drain LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP* VSSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC2G38_1_1"
+				(arc
+					(start 0 -5.08)
+					(mid 5.0579 0)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 0) (xy -2.54 -1.27) (xy -1.27 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC2G38_2_1"
+				(arc
+					(start 0 -5.08)
+					(mid 5.0579 0)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 0) (xy -2.54 -1.27) (xy -1.27 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC2G38_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC2G38_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 96.52 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "197da82d-7cc0-4d0c-8ec4-2532decbe52c")
+	)
+	(junction
+		(at 114.3 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444c78f3-a63b-443d-89fd-3d84eafb0799")
+	)
+	(junction
+		(at 101.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6449d3d2-f09b-485c-82fc-401dca13c188")
+	)
+	(junction
+		(at 101.6 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76319db7-f95f-4c62-9191-720432832170")
+	)
+	(junction
+		(at 93.98 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a8370f1-04f4-4aed-8009-288e02633214")
+	)
+	(junction
+		(at 93.98 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92768426-6123-4116-939a-0f0937c3045f")
+	)
+	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ff68bfe-236b-4d10-bf8c-566cc6d8e2bb")
+	)
+	(junction
+		(at 114.3 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9e75698-9416-45dc-a979-2611b182307c")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018be514-4dcf-4ccb-affe-ff7d51777c11")
+	)
+	(wire
+		(pts
+			(xy 50.8 154.94) (xy 60.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec5268b-195f-4f1a-944b-caeb8f81c2d7")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 203.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122a1ce3-0b91-45f2-918f-421eb7e90b07")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 96.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dcae8a-dbf8-4ef9-9ccc-1fb64217b4c2")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bb7715-05bf-4416-b457-16d4517cdca7")
+	)
+	(wire
+		(pts
+			(xy 50.8 149.86) (xy 60.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c428df5-9e5b-4474-98ac-873421cbb9ee")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6589ad-0977-427f-b749-be03c86a573e")
+	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 88.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de26026-a317-472f-85ae-42b8bc002e5c")
+	)
+	(wire
+		(pts
+			(xy 50.8 129.54) (xy 60.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219f74c3-f162-4eee-81a6-52fac42298b6")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22adf803-012d-44ea-8ede-196feaac7227")
+	)
+	(wire
+		(pts
+			(xy 228.6 137.16) (xy 228.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a55b78-4b36-4f30-9914-a5aa5769c12a")
+	)
+	(wire
+		(pts
+			(xy 127 40.64) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281024a2-6f0f-4eca-91cc-50997d72a48a")
+	)
+	(wire
+		(pts
+			(xy 114.3 20.32) (xy 114.3 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8d0f03-80c4-4770-82f6-1d596876bae2")
+	)
+	(wire
+		(pts
+			(xy 114.3 30.48) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca599a3-f6d1-4c95-8dd9-f8f76afc08fe")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbad97d-11e1-4bf0-8e5b-0e086d6f2040")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326e5e19-9d66-4674-8d89-93e95cea8d57")
+	)
+	(wire
+		(pts
+			(xy 228.6 111.76) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36534e35-074a-4ab5-a03f-b4bc6efb2869")
+	)
+	(wire
+		(pts
+			(xy 93.98 132.08) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2441e1-f107-4d12-8bc6-bd7572d960eb")
+	)
+	(wire
+		(pts
+			(xy 101.6 22.86) (xy 101.6 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cde27d-fe71-4b5d-ac0b-98977bbb9de7")
+	)
+	(wire
+		(pts
+			(xy 254 137.16) (xy 254 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bd5026-a672-40b9-a9af-367b2e3f7317")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f679c3c-ba09-4290-92fc-62b21adcad9c")
+	)
+	(wire
+		(pts
+			(xy 127 20.32) (xy 127 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e805bd-4f86-4aa2-85b0-39259f1d3910")
+	)
+	(wire
+		(pts
+			(xy 101.6 20.32) (xy 114.3 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c7772d-e871-4d17-ad4f-d84f97e0eef7")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 96.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67898490-86df-4212-96d9-ca121dfa347c")
+	)
+	(wire
+		(pts
+			(xy 101.6 30.48) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a09d6d4-5730-454a-923e-486fa2d7ab08")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 93.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a89c7c6-1d7f-4443-b0c0-43ba3287c562")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac02902-7b6f-4549-a835-7de77f438b10")
+	)
+	(wire
+		(pts
+			(xy 203.2 137.16) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d217c64-f474-4be0-98d1-25c64b0e34ec")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d00832-7ad9-4a4d-b5ee-d00745c3b552")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 60.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784b1fca-2391-44d6-a729-0040988e4ee0")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d72bc6b-8bee-455b-aaee-7ce6bdbac37e")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff32930-ecc0-40d7-ad43-31be4fc2aad9")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d35f09-913d-413b-9ca6-096e36893e01")
+	)
+	(wire
+		(pts
+			(xy 50.8 134.62) (xy 60.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b9f963-bd2c-4d2b-8275-a7552e80dd8a")
+	)
+	(wire
+		(pts
+			(xy 254 111.76) (xy 254 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac29fd9-6533-45bd-9909-2c678a57d3a4")
+	)
+	(wire
+		(pts
+			(xy 114.3 20.32) (xy 127 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd839028-5df5-4337-bf39-c6a7a7a2dcb5")
+	)
+	(wire
+		(pts
+			(xy 50.8 109.22) (xy 60.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d217d1-b6d6-4c89-9ae6-2b8c75909855")
+	)
+	(wire
+		(pts
+			(xy 127 30.48) (xy 127 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e9435c-339a-4060-a8d0-dac2bf4e3ac6")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d612f25c-9237-47a6-a821-c02e8711c94a")
+	)
+	(wire
+		(pts
+			(xy 50.8 93.98) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80c642f-9019-4d44-a99f-4f984e396386")
+	)
+	(wire
+		(pts
+			(xy 114.3 71.12) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1b9ec6-6ae5-43fb-bfb0-219ba6ca1a13")
+	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7c6ad0-1006-4f37-a727-c3ce015b8507")
+	)
+	(wire
+		(pts
+			(xy 101.6 17.78) (xy 101.6 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6c56aa-7241-456c-ae7e-9171a0473594")
+	)
+	(wire
+		(pts
+			(xy 101.6 40.64) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4807745-0b09-40f0-afed-c0f9403a3dc5")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e0a394-9d8e-471e-bf9c-fec0df506ddd")
+	)
+	(text_box "TMR - Triple Modular Redundancy\n\nRP2040 is not space-rated, so we cannot trust that the output of a single unit has not been affected by radiation.\n\nWe use three units instead, and compare their outputs. \nIt is unlikely that two errors will occur at the same time, and even less likely for two simultaneous identical errors to occur.\n\nAt regular intervals, each unit will transmit information about its internal state (state vector) to a shared interface.\nEach unit will then be able compare the state vectors of the other units with its own state vector. \n\nIf there is a difference between one unit and the other, the former unit will vote to reset the latter unit.\nTwo units have to both vote for another unit in order to trigger a reset.\n\nThe voting circuit comprises a double-redundant 2-NAND gate for each candidate unit. \n\nThe outputs are open-drain, which will pull down the RUN pin, triggering a reset."
+		(exclude_from_sim no)
+		(at 203.2 25.4 0)
+		(size 76.2 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fb6bb7d8-233c-4609-acc4-4bfcf39c3d4d")
+	)
+	(hierarchical_label "UNIT_A_VOTE_C"
+		(shape input)
+		(at 50.8 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0997f0a2-732b-4ed3-b81a-d34b04cfc308")
+	)
+	(hierarchical_label "TMR_RESET_A"
+		(shape output)
+		(at 139.7 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15ada8f7-ffbe-4840-9b93-15980fc66291")
+	)
+	(hierarchical_label "UNIT_B_VOTE_A"
+		(shape input)
+		(at 50.8 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1698d543-f35d-4449-96ea-d1a52e8602c6")
+	)
+	(hierarchical_label "UNIT_C_VOTE_B"
+		(shape input)
+		(at 50.8 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "345d8073-e968-45ef-be7c-07eb4e13d63e")
+	)
+	(hierarchical_label "UNIT_C_VOTE_A"
+		(shape input)
+		(at 50.8 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72f71dd7-55d4-47e8-9b0d-d166e14ae4b2")
+	)
+	(hierarchical_label "UNIT_C_VOTE_B"
+		(shape input)
+		(at 50.8 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73248048-bca9-41b5-a527-101b12674d8e")
+	)
+	(hierarchical_label "TMR_RESET_B"
+		(shape output)
+		(at 139.7 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e39c89c-7b0d-430e-928d-0b7a55e8f783")
+	)
+	(hierarchical_label "UNIT_A_VOTE_B"
+		(shape input)
+		(at 50.8 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94e4b35f-b4d7-4d03-9490-1496958973c7")
+	)
+	(hierarchical_label "UNIT_A_VOTE_C"
+		(shape input)
+		(at 50.8 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d79f240-6a26-4c23-8136-fec042140fdb")
+	)
+	(hierarchical_label "UNIT_B_VOTE_C"
+		(shape input)
+		(at 50.8 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4812d98-1abf-4e2e-87a2-b210afda58d0")
+	)
+	(hierarchical_label "TMR_RESET_C"
+		(shape output)
+		(at 139.7 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cecfaced-3aaa-493e-a65a-7b3f309e4ce2")
+	)
+	(hierarchical_label "UNIT_A_VOTE_B"
+		(shape input)
+		(at 50.8 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2881d9c-2738-4ade-beae-11e6ae774361")
+	)
+	(hierarchical_label "UNIT_B_VOTE_C"
+		(shape input)
+		(at 50.8 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6d0e651-13e8-40c9-972e-c888beb1da69")
+	)
+	(hierarchical_label "UNIT_B_VOTE_A"
+		(shape input)
+		(at 50.8 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2a9e5a1-594f-4f6f-9da3-4bd2239f1fb8")
+	)
+	(hierarchical_label "UNIT_C_VOTE_A"
+		(shape input)
+		(at 50.8 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcfc8ac9-fce9-4c77-923e-5c1d6b7ef356")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 132.08 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05be1999-1114-4c6d-8269-798b57751453")
+		(property "Netclass" "TMR_RESET"
+			(at 132.7785 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 132.08 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b67d47e4-89a6-4139-aee0-240c80c6c51c")
+		(property "Netclass" "TMR_RESET"
+			(at 132.7785 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 132.08 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b722e7d3-3c62-42fb-8ad0-54cbabcbd872")
+		(property "Netclass" "TMR_RESET"
+			(at 132.7785 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "028910c8-29d5-41d7-a77a-6d5d4ccef06f")
+		(property "Reference" "#PWR0104"
+			(at 101.6 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 104.14 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 101.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38158e2c-6de1-45a1-bc9e-1e1eb1d566ec")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 254 127 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "098bda0a-6b7c-41d0-91c4-70cb21ba1507")
+		(property "Reference" "U20"
+			(at 260.35 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 260.35 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6bb3b2-215a-4047-b315-3906c4af7ae0")
+		)
+		(pin "7"
+			(uuid "170c2b01-e439-47f5-bae4-cb5aadc5f532")
+		)
+		(pin "1"
+			(uuid "27da6253-95de-48b2-b37b-34578ea90d3a")
+		)
+		(pin "4"
+			(uuid "6ca3b0b0-4fd2-4969-a01c-c088ea459109")
+		)
+		(pin "5"
+			(uuid "d5e28165-56dd-444b-84e7-5ceef3eaa311")
+		)
+		(pin "3"
+			(uuid "e2419232-7584-4629-a8e7-7c4438b17a92")
+		)
+		(pin "6"
+			(uuid "521277cf-6779-4e4e-a97c-7043d0b40718")
+		)
+		(pin "8"
+			(uuid "822865e9-625c-4c01-9099-393a3fe3e96f")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U20")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 203.2 127 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5919bc-00a5-458b-a5bf-a6fc016dd7c0")
+		(property "Reference" "U18"
+			(at 209.55 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 209.55 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6bb3b2-215a-4047-b315-3906c4af7ae1")
+		)
+		(pin "7"
+			(uuid "170c2b01-e439-47f5-bae4-cb5aadc5f533")
+		)
+		(pin "1"
+			(uuid "27da6253-95de-48b2-b37b-34578ea90d3b")
+		)
+		(pin "4"
+			(uuid "edf731ee-736b-4b1b-9db8-eb2682292164")
+		)
+		(pin "5"
+			(uuid "d5e28165-56dd-444b-84e7-5ceef3eaa312")
+		)
+		(pin "3"
+			(uuid "e2419232-7584-4629-a8e7-7c4438b17a93")
+		)
+		(pin "6"
+			(uuid "521277cf-6779-4e4e-a97c-7043d0b40719")
+		)
+		(pin "8"
+			(uuid "ef94a210-8274-46cd-94d0-fdf8ef50b458")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U18")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15bafa33-cf77-4914-b6ff-84d63c35050a")
+		(property "Reference" "D18"
+			(at 130.81 37.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 130.81 39.6874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C364553"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C281KRKT-5A"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f35bcb92-d13c-4970-942c-225428b23655")
+		)
+		(pin "2"
+			(uuid "c2ffd6bd-d870-4c61-8e79-7909d33f61ec")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 254 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2403beba-1e03-45db-a54e-cc2e819205de")
+		(property "Reference" "#PWR0109"
+			(at 254 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25987517-bd48-4ad1-96ba-8f3ce5b1d23a")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a16c5f4-05da-4bcb-a8ef-90c0a58bb9f1")
+		(property "Reference" "R61"
+			(at 129.54 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R"
+			(at 129.54 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 125.222 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C445590"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANASONIC"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA2AEB471X"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "820d63f4-3659-402f-994e-ed9fbde549f2")
+		)
+		(pin "1"
+			(uuid "7dd2fc19-1d9d-42b0-a8e9-f60a01c6894b")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 76.2 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c26d64f-3b9b-4870-af98-5b6de1559502")
+		(property "Reference" "U19"
+			(at 74.9189 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 74.9189 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a0c7136-024c-4756-9189-cc88227adad3")
+		)
+		(pin "7"
+			(uuid "d39b6bb2-0be6-4ba0-92e3-167ccb69b96a")
+		)
+		(pin "1"
+			(uuid "58dd1d53-832a-4790-8560-4f47013a3d36")
+		)
+		(pin "4"
+			(uuid "8900ac72-0f65-417a-9743-380205210e7a")
+		)
+		(pin "5"
+			(uuid "d5e28165-56dd-444b-84e7-5ceef3eaa310")
+		)
+		(pin "3"
+			(uuid "e2419232-7584-4629-a8e7-7c4438b17a91")
+		)
+		(pin "6"
+			(uuid "521277cf-6779-4e4e-a97c-7043d0b40717")
+		)
+		(pin "8"
+			(uuid "554a093b-1d7d-4064-a22c-b0c33069c55d")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4254d1ad-f77e-44ad-81f9-63dca58896a8")
+		(property "Reference" "R59"
+			(at 104.14 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R"
+			(at 104.14 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 99.822 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C445590"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANASONIC"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA2AEB471X"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6679bb2-8db8-4f75-acc6-baa8da9e41c1")
+		)
+		(pin "1"
+			(uuid "c25c9f40-dd96-4ebd-9fb6-2170e88bd0fd")
+		)
+		(instances
+			(project ""
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 114.3 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f9dc7f-3047-4f89-b257-bfcc731d4337")
+		(property "Reference" "D17"
+			(at 118.11 37.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 118.11 39.6874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C364553"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C281KRKT-5A"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1f56de8-5dcc-4f09-9ea9-eba8363012c5")
+		)
+		(pin "2"
+			(uuid "e04d77b5-25c4-49e3-b932-3444519c7efb")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 76.2 71.12 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b5ed2e-1579-4776-bd2b-540d3cf5fe7d")
+		(property "Reference" "U18"
+			(at 74.9189 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 74.9189 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6bb3b2-215a-4047-b315-3906c4af7ade")
+		)
+		(pin "7"
+			(uuid "170c2b01-e439-47f5-bae4-cb5aadc5f530")
+		)
+		(pin "1"
+			(uuid "27da6253-95de-48b2-b37b-34578ea90d38")
+		)
+		(pin "4"
+			(uuid "8900ac72-0f65-417a-9743-380205210e79")
+		)
+		(pin "5"
+			(uuid "e5626685-ef57-4727-937a-464585fb2766")
+		)
+		(pin "3"
+			(uuid "19d288f1-e51c-48fb-ac52-a61bb71b1268")
+		)
+		(pin "6"
+			(uuid "9fae1507-3c5c-4145-a853-064a6bfd39d9")
+		)
+		(pin "8"
+			(uuid "554a093b-1d7d-4064-a22c-b0c33069c55c")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U18")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62718eeb-d56c-44e5-97c5-91992b99a863")
+		(property "Reference" "R60"
+			(at 116.84 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R"
+			(at 116.84 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cubesat_rp2040:R_0402_1005Metric"
+			(at 112.522 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C445590"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANASONIC"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA2AEB471X"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da054869-a144-4725-bec1-f635762c8123")
+		)
+		(pin "1"
+			(uuid "2e315ed2-4d6c-4c8b-ab0e-53c97b0be85d")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 228.6 127 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "856cec68-35f4-4de8-a5c8-642b736563de")
+		(property "Reference" "U19"
+			(at 234.95 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 234.95 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6bb3b2-215a-4047-b315-3906c4af7ae2")
+		)
+		(pin "7"
+			(uuid "170c2b01-e439-47f5-bae4-cb5aadc5f534")
+		)
+		(pin "1"
+			(uuid "27da6253-95de-48b2-b37b-34578ea90d3c")
+		)
+		(pin "4"
+			(uuid "b8b8869a-3ada-4ac5-9773-f66701670e16")
+		)
+		(pin "5"
+			(uuid "d5e28165-56dd-444b-84e7-5ceef3eaa313")
+		)
+		(pin "3"
+			(uuid "e2419232-7584-4629-a8e7-7c4438b17a94")
+		)
+		(pin "6"
+			(uuid "521277cf-6779-4e4e-a97c-7043d0b4071a")
+		)
+		(pin "8"
+			(uuid "126d635d-94b0-4c20-999d-5b64f5056b58")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U19")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 101.6 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd4c9e7-c2f5-4f68-81c3-45d113c95891")
+		(property "Reference" "D16"
+			(at 105.41 37.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 105.41 39.6874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C364553"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C281KRKT-5A"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea55f3b8-e90d-43f1-8a1a-994a18d3f156")
+		)
+		(pin "2"
+			(uuid "1b412e45-2f4d-494d-b320-377ea63078e3")
+		)
+		(instances
+			(project ""
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93569a08-b8e2-496b-84ec-f1aa4699b5f3")
+		(property "Reference" "#PWR0108"
+			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04ee7f6a-a941-47ae-bbab-6e7cbacd7599")
+		)
+		(instances
+			(project ""
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 203.2 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3cd9c37-ea5d-4a0a-a2fb-b4edcc726e9b")
+		(property "Reference" "#PWR0105"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 205.74 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b03bb96-2a0b-44a7-9351-f358649d7a81")
+		)
+		(instances
+			(project ""
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab1c5067-31ef-4ed7-a43b-15f15fed4df3")
+		(property "Reference" "#PWR0110"
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98bbf84b-4ddf-4f8e-bf63-da303c90690f")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 76.2 152.4 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b618d3de-b968-4cc5-aa30-2e972c62d8fb")
+		(property "Reference" "U20"
+			(at 74.9189 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 74.9189 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6bb3b2-215a-4047-b315-3906c4af7adf")
+		)
+		(pin "7"
+			(uuid "170c2b01-e439-47f5-bae4-cb5aadc5f531")
+		)
+		(pin "1"
+			(uuid "27da6253-95de-48b2-b37b-34578ea90d39")
+		)
+		(pin "4"
+			(uuid "8900ac72-0f65-417a-9743-380205210e7b")
+		)
+		(pin "5"
+			(uuid "5330eadb-08f7-4e90-88fe-bd44cc97424c")
+		)
+		(pin "3"
+			(uuid "a04d0f20-7702-476d-bc0c-e8307729c9bc")
+		)
+		(pin "6"
+			(uuid "4d878b0f-49ec-41e6-8dde-1cb292c1a11e")
+		)
+		(pin "8"
+			(uuid "554a093b-1d7d-4064-a22c-b0c33069c55e")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U20")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 228.6 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c39bada5-8092-45a2-8ea4-a4a0e8aa5d59")
+		(property "Reference" "#PWR0107"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 231.14 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "448bff45-8cfa-44eb-bb5b-85bde9ed739e")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 76.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c65d9c6e-1d9c-4b60-a154-aac2c3cf5d45")
+		(property "Reference" "U18"
+			(at 74.9189 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 74.9189 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c9edc8b-2247-4a9b-ac10-18d53b9fb196")
+		)
+		(pin "7"
+			(uuid "51ddd0e9-3448-4bd4-a315-b670ae604d6e")
+		)
+		(pin "1"
+			(uuid "480b2b8e-efd9-4080-a884-f2b69c53d85f")
+		)
+		(pin "4"
+			(uuid "8900ac72-0f65-417a-9743-380205210e7c")
+		)
+		(pin "5"
+			(uuid "d5e28165-56dd-444b-84e7-5ceef3eaa314")
+		)
+		(pin "3"
+			(uuid "e2419232-7584-4629-a8e7-7c4438b17a95")
+		)
+		(pin "6"
+			(uuid "521277cf-6779-4e4e-a97c-7043d0b4071b")
+		)
+		(pin "8"
+			(uuid "554a093b-1d7d-4064-a22c-b0c33069c55f")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 76.2 111.76 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7c58588-964e-49f5-832a-ea75b8da4191")
+		(property "Reference" "U19"
+			(at 74.9189 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 74.9189 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6bb3b2-215a-4047-b315-3906c4af7ae3")
+		)
+		(pin "7"
+			(uuid "170c2b01-e439-47f5-bae4-cb5aadc5f535")
+		)
+		(pin "1"
+			(uuid "27da6253-95de-48b2-b37b-34578ea90d3d")
+		)
+		(pin "4"
+			(uuid "8900ac72-0f65-417a-9743-380205210e7d")
+		)
+		(pin "5"
+			(uuid "98141a43-eb2a-4d54-b83d-f9c1b4eaa319")
+		)
+		(pin "3"
+			(uuid "a7858a71-7456-4aea-95fb-6fd53e92d58a")
+		)
+		(pin "6"
+			(uuid "16d666c8-0c96-4a09-8532-7b6489fa2203")
+		)
+		(pin "8"
+			(uuid "554a093b-1d7d-4064-a22c-b0c33069c560")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U19")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G38")
+		(at 76.2 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da87d77f-6181-4dee-b4bf-535d0df59d35")
+		(property "Reference" "U20"
+			(at 74.9189 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G38"
+			(at 74.9189 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NAND Gate, Open Drain, Low-Voltage CMOS"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C548654"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G38DP,125"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c65514f-8f1b-4234-8c4c-ca4140b33bb5")
+		)
+		(pin "7"
+			(uuid "8e388156-e592-4550-b2ba-e1f9c560b825")
+		)
+		(pin "1"
+			(uuid "748a7007-d7c9-46ec-b002-1eb6d99971ec")
+		)
+		(pin "4"
+			(uuid "8900ac72-0f65-417a-9743-380205210e7e")
+		)
+		(pin "5"
+			(uuid "d5e28165-56dd-444b-84e7-5ceef3eaa315")
+		)
+		(pin "3"
+			(uuid "e2419232-7584-4629-a8e7-7c4438b17a96")
+		)
+		(pin "6"
+			(uuid "521277cf-6779-4e4e-a97c-7043d0b4071c")
+		)
+		(pin "8"
+			(uuid "554a093b-1d7d-4064-a22c-b0c33069c561")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee044872-cab8-47a2-a27c-461b93472d6f")
+		(property "Reference" "#PWR0106"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e895d090-e47f-4baf-b9f4-1d3763afec83")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

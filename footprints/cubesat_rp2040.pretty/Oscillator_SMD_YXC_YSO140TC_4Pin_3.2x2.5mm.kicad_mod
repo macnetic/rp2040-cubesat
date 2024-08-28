@@ -1,0 +1,163 @@
+(footprint "Oscillator_SMD_YXC_YSO140TC_4Pin_3.2x2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17cec62e-0b4b-4895-8e1e-a36b698c5482")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_YXC_YSO140TC_4Pin_3.2x2.5mm"
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1197884a-0b1c-443d-97c5-abd86cd66718")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "cubesat_rp2040:Oscillator_SMD_YXC_YSO140TC_4Pin_3.2x2.5mm"
+		(at 0 -1.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5c07f97-7a24-466f-9e47-0ba9e1920852")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://image.seapx.com/mall/yangxin/3/20240301/YXC-YSO140TC-datesheet-V2-327808.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "718822c3-65e2-4b82-8954-f744e1dcd0a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56af5294-084c-4f49-ad6b-92db2ebaa34a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -1.55)
+		(end -1.9 1.75)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87f86deb-de2e-41f3-b82c-024bf57efae2")
+	)
+	(fp_line
+		(start -1.9 1.75)
+		(end 1.7 1.75)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "836dfff9-d81c-42c5-95e3-d16a270b3b09")
+	)
+	(fp_rect
+		(start -2.1 -1.75)
+		(end 1.9 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "4d08d3d7-a49c-4456-8ce4-ffd8813675ce")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d907b2e5-9ff2-4e30-bc0b-e81f0ac9a50d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe7293d9-8f2c-49de-8d5f-5b1e164ef203")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7f809c82-edf4-4ca7-b760-529fe741eb19")
+	)
+	(pad "2" smd rect
+		(at 1.05 0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "96762f86-85eb-4928-b66f-71ee1b71a374")
+	)
+	(pad "3" smd rect
+		(at 1.05 -0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "38d606bc-e3b0-4596-97bc-3596f7c0c917")
+	)
+	(pad "4" smd rect
+		(at -1.05 -0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9d4f0987-43b1-4af8-a05a-2cd2726e7eff")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,291 @@
+(footprint "SOT1086-2_HVSON14_4.5x3x0.85mm_P0.65mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "08aaf993-c4b6-422f-ab32-8420951c6e63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SOT1086-2_HVSON14_4.5x3x0.85mm_P0.65mm"
+		(at 0 3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd0e4bc9-4ece-4735-9210-0a6b0c808274")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab62f02a-a434-4e6a-87eb-ea4067ce41a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nxp.com/docs/en/package-information/SOT1086-2.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e3d3984-363c-4887-8138-6f3a8d8b7253")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "plastic, thermal enhanced very thin small outline package; no leads; 14 terminals, 0.65 mm pitch, 4.5 mm x 3 mm x 0.85 mm body"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28d23e8a-d863-4cce-9f5a-e509d70d8218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -2.25)
+		(end 1.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82e01594-c522-4f50-805e-bd2de89ad8e8")
+	)
+	(fp_line
+		(start -1.5 2.25)
+		(end 1.5 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "292a1b43-0731-4441-b6c3-b0fe6c4cf5cf")
+	)
+	(fp_circle
+		(center -1.2 -2.7)
+		(end -1.1 -2.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "3b3a2d0b-44c5-42fc-9b63-f51178fd0e8c")
+	)
+	(fp_rect
+		(start -2.1 -2.375)
+		(end 2.1 2.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c42275d3-022b-4990-be73-d2188b88f302")
+	)
+	(fp_rect
+		(start -2.1 -2.375)
+		(end 2.1 2.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dc6d7f23-6049-4717-b727-9bac48b2b09c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf0c4478-8bdc-4328-a7c8-9575ab496a48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 -0.675)
+		(size 0.65 1)
+		(layers "F.Paste")
+		(uuid "cc05fe93-6e50-4349-8b10-65c566509ebd")
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 1.65 4.25)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "73db79c3-ef12-43d0-9291-fa14a1dd7a9d")
+	)
+	(pad "" smd rect
+		(at 0 0.675)
+		(size 0.65 1)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4db20010-387b-477f-99ff-0da76665c068")
+	)
+	(pad "1" smd rect
+		(at -1.5375 -1.95)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "63ad86d4-4c74-49fa-b474-7c2c8a3d9446")
+	)
+	(pad "2" smd rect
+		(at -1.5375 -1.3)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f92d4da2-114f-4fb9-b127-29c9ab1199e1")
+	)
+	(pad "3" smd rect
+		(at -1.5375 -0.65)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "abc78ea6-b220-4555-a332-15ca517f77b8")
+	)
+	(pad "4" smd rect
+		(at -1.5375 0)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "33070ecf-0902-489a-820c-08ad9c6d73a4")
+	)
+	(pad "5" smd rect
+		(at -1.5375 0.65)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4b6a2757-2d36-44b6-9ad3-1177354c5a94")
+	)
+	(pad "6" smd rect
+		(at -1.5375 1.3)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f5a1c7eb-bebc-4d57-b849-bfd730f7b509")
+	)
+	(pad "7" smd rect
+		(at -1.5375 1.95)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "39464bfe-d7a6-4a8c-9045-cf99b4caf963")
+	)
+	(pad "8" smd rect
+		(at 1.5375 1.95)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8f330355-d287-42a4-b47e-9737c1e2f38a")
+	)
+	(pad "9" smd rect
+		(at 1.5375 1.3)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e7c4916e-2eab-4f62-b072-4ea9feaf65be")
+	)
+	(pad "10" smd rect
+		(at 1.5375 0.65)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7d1c8930-11cf-45e4-b0f9-ab6429fbf92f")
+	)
+	(pad "11" smd rect
+		(at 1.5375 0)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b282a349-2189-4295-b2c1-dbaac349659b")
+	)
+	(pad "12" smd rect
+		(at 1.5375 -0.65)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c56c761e-a939-4346-88dc-b7c0b034ee90")
+	)
+	(pad "13" smd rect
+		(at 1.5375 -1.3)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e42bf82a-d9f8-448a-99b2-82c067456ddd")
+	)
+	(pad "14" smd rect
+		(at 1.5375 -1.95)
+		(size 0.875 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "aabc90e6-2e17-46a2-87cb-533f3c441756")
+	)
+	(group ""
+		(uuid "0f195921-7988-4106-ad14-3ab28db12a27")
+		(members "4db20010-387b-477f-99ff-0da76665c068" "73db79c3-ef12-43d0-9291-fa14a1dd7a9d"
+			"cc05fe93-6e50-4349-8b10-65c566509ebd"
+		)
+	)
+	(group ""
+		(uuid "0fdc81b6-1122-4998-bc96-c41588bb7a23")
+		(members "33070ecf-0902-489a-820c-08ad9c6d73a4" "39464bfe-d7a6-4a8c-9045-cf99b4caf963"
+			"4b6a2757-2d36-44b6-9ad3-1177354c5a94" "63ad86d4-4c74-49fa-b474-7c2c8a3d9446"
+			"abc78ea6-b220-4555-a332-15ca517f77b8" "f5a1c7eb-bebc-4d57-b849-bfd730f7b509"
+			"f92d4da2-114f-4fb9-b127-29c9ab1199e1"
+		)
+	)
+	(group ""
+		(uuid "1af93d2c-c82c-4db9-8876-d5c0cd7530d0")
+		(members "7d1c8930-11cf-45e4-b0f9-ab6429fbf92f" "8f330355-d287-42a4-b47e-9737c1e2f38a"
+			"aabc90e6-2e17-46a2-87cb-533f3c441756" "b282a349-2189-4295-b2c1-dbaac349659b"
+			"c56c761e-a939-4346-88dc-b7c0b034ee90" "e42bf82a-d9f8-448a-99b2-82c067456ddd"
+			"e7c4916e-2eab-4f62-b072-4ea9feaf65be"
+		)
+	)
+	(group ""
+		(uuid "7b0b180c-21fd-4a77-8fe6-fbe3d58e6ae3")
+		(members "0fdc81b6-1122-4998-bc96-c41588bb7a23" "1af93d2c-c82c-4db9-8876-d5c0cd7530d0")
+	)
+	(model "${KIPRJMOD}/footprints/HVSON14_TJA1059_NXP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

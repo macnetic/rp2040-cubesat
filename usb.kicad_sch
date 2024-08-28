@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "CubeSat RP2040 Board")
+		(date "2024-08-28")
 		(rev "1")
 		(company "Magnus Oksbøl Therkelsen")
 		(comment 1 "Author: Magnus Oksbøl Therkelsen")
@@ -5011,7 +5012,7 @@
 		)
 		(uuid "0caa53cf-2f8d-4e1e-b383-626a541abb64")
 	)
-	(label "USB_DN3.D+"
+	(label "USB_DN4.D+"
 		(at 358.14 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5044,7 +5045,7 @@
 		)
 		(uuid "3abf1018-fb2b-4ecf-a364-057241ed2601")
 	)
-	(label "USB_DN1.D+"
+	(label "USB_DN2.D+"
 		(at 358.14 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5055,7 +5056,7 @@
 		)
 		(uuid "42b3abc4-447b-4bb1-a1fc-d9338d4515c9")
 	)
-	(label "USB_DN0.D-"
+	(label "USB_DN1.D-"
 		(at 358.14 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5088,7 +5089,7 @@
 		)
 		(uuid "b5f02bb4-7683-4aab-ac17-4d4be9836ee8")
 	)
-	(label "USB_DN2.D-"
+	(label "USB_DN3.D-"
 		(at 358.14 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5099,7 +5100,7 @@
 		)
 		(uuid "ce0321f6-e4bb-43b7-a2c1-c9ba1c425c17")
 	)
-	(label "USB_DN0.D+"
+	(label "USB_DN1.D+"
 		(at 358.14 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5121,7 +5122,7 @@
 		)
 		(uuid "e7d83e28-5f2e-47e0-929f-345474928e2e")
 	)
-	(label "USB_DN1.D-"
+	(label "USB_DN2.D-"
 		(at 358.14 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5154,7 +5155,7 @@
 		)
 		(uuid "f43de490-e1b9-4ee6-ac6c-cec5ce10dae4")
 	)
-	(label "USB_DN2.D+"
+	(label "USB_DN3.D+"
 		(at 358.14 114.3 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5165,7 +5166,7 @@
 		)
 		(uuid "f5a0893e-a29c-49ef-a2af-11bd7b3a204a")
 	)
-	(label "USB_DN3.D-"
+	(label "USB_DN4.D-"
 		(at 358.14 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5176,7 +5177,7 @@
 		)
 		(uuid "f6b94f3b-50c0-4733-abd2-95bdcb8c47ea")
 	)
-	(hierarchical_label "XIN"
+	(hierarchical_label "CLK_24MHz"
 		(shape input)
 		(at 203.2 104.14 180)
 		(fields_autoplaced yes)
@@ -5188,7 +5189,7 @@
 		)
 		(uuid "04eba88e-fa18-4aca-8e44-9c54fc2a7fac")
 	)
-	(hierarchical_label "USB_DN2{D+ D-}"
+	(hierarchical_label "USB_DN3{D+ D-}"
 		(shape bidirectional)
 		(at 368.3 111.76 0)
 		(fields_autoplaced yes)
@@ -5212,7 +5213,7 @@
 		)
 		(uuid "4ee1c93c-93ad-44a0-be6e-ead5cf9a59b5")
 	)
-	(hierarchical_label "PWRCTL3{slash}BATEN3"
+	(hierarchical_label "PWRCTL4{slash}BATEN4"
 		(shape input)
 		(at 368.3 132.08 0)
 		(fields_autoplaced yes)
@@ -5224,7 +5225,7 @@
 		)
 		(uuid "594bac5d-9d11-4b89-a99b-6f16e7907ec2")
 	)
-	(hierarchical_label "USB_DN3{D+ D-}"
+	(hierarchical_label "USB_DN4{D+ D-}"
 		(shape bidirectional)
 		(at 368.3 124.46 0)
 		(fields_autoplaced yes)
@@ -5236,7 +5237,7 @@
 		)
 		(uuid "9204555d-cf8d-4e7b-a26c-bce7535dcf29")
 	)
-	(hierarchical_label "USB_DN0{D+ D-}"
+	(hierarchical_label "USB_DN1{D+ D-}"
 		(shape bidirectional)
 		(at 368.3 86.36 0)
 		(fields_autoplaced yes)
@@ -5248,7 +5249,7 @@
 		)
 		(uuid "a9c8dbb6-8930-4576-857f-5e819e80ce83")
 	)
-	(hierarchical_label "PWRCTL0{slash}BATEN0"
+	(hierarchical_label "PWRCTL1{slash}BATEN1"
 		(shape input)
 		(at 368.3 93.98 0)
 		(fields_autoplaced yes)
@@ -5260,7 +5261,7 @@
 		)
 		(uuid "b9ec3f45-38c0-4c8c-8945-7a21fc58682d")
 	)
-	(hierarchical_label "PWRCTL2{slash}BATEN2"
+	(hierarchical_label "PWRCTL3{slash}BATEN3"
 		(shape input)
 		(at 368.3 119.38 0)
 		(fields_autoplaced yes)
@@ -5272,7 +5273,7 @@
 		)
 		(uuid "bc1c249c-f1ea-4279-91cb-b99663b8ea97")
 	)
-	(hierarchical_label "PWRCTL1{slash}BATEN1"
+	(hierarchical_label "PWRCTL2{slash}BATEN2"
 		(shape input)
 		(at 368.3 106.68 0)
 		(fields_autoplaced yes)
@@ -5284,7 +5285,7 @@
 		)
 		(uuid "c16fece4-ea5f-44c6-95e5-dc6c44340022")
 	)
-	(hierarchical_label "USB_DN1{D+ D-}"
+	(hierarchical_label "USB_DN2{D+ D-}"
 		(shape bidirectional)
 		(at 368.3 99.06 0)
 		(fields_autoplaced yes)
@@ -5307,7 +5308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "051af9f9-e4ca-4d01-b5b3-05c5de43dd01")
-		(property "Reference" "R308"
+		(property "Reference" "R17"
 			(at 317.5 143.5099 0)
 			(effects
 				(font
@@ -5316,7 +5317,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kR"
 			(at 317.5 146.0499 0)
 			(effects
 				(font
@@ -5361,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 314.96 144.78 0)
 			(effects
 				(font
@@ -5370,7 +5371,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E4701FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AEB472X"
+			(at 314.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C490830"
 			(at 314.96 144.78 0)
 			(effects
 				(font
@@ -5388,7 +5398,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R308")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13e0e40b-a1e6-460b-9ffc-e0b1130931e6")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR040"
 			(at 342.9 26.67 0)
 			(effects
 				(font
@@ -5455,7 +5465,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0319")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5471,7 +5481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "199f93b3-8ecc-46c1-8029-ab5d233ff7bc")
-		(property "Reference" "C307"
+		(property "Reference" "C11"
 			(at 257.81 30.4799 0)
 			(effects
 				(font
@@ -5480,7 +5490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 257.81 33.0199 0)
 			(effects
 				(font
@@ -5516,6 +5526,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83ad9ec9-be2d-4aaa-9390-7170fb0a38aa")
 		)
@@ -5525,7 +5571,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C307")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5541,7 +5587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cd53eee-635b-4bbd-be56-5d7005dcb500")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR037"
 			(at 256.54 74.93 0)
 			(effects
 				(font
@@ -5592,7 +5638,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0316")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5608,7 +5654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d6a5536-63b6-426e-ad4d-39c1589d0d9c")
-		(property "Reference" "D302"
+		(property "Reference" "D14"
 			(at 85.09 111.7599 90)
 			(effects
 				(font
@@ -5653,6 +5699,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Part_Number" "C1973257"
+			(at 87.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 87.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GG0402052R542P"
+			(at 87.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07030034-aadc-4e9b-a412-eccdacbeb3ab")
 		)
@@ -5662,7 +5735,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "D302")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe3a73e-7bbe-412e-8b02-3f99545a00d5")
-		(property "Reference" "#PWR0323"
+		(property "Reference" "#PWR025"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -5688,11 +5761,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 124.46 0)
+			(at 85.09 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5728,7 +5802,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0323")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5744,7 +5818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d03a64a-516f-4d5a-891c-0611147394fb")
-		(property "Reference" "J301"
+		(property "Reference" "J4"
 			(at 35.56 87.63 0)
 			(effects
 				(font
@@ -5779,6 +5853,33 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(at 35.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C5299418"
+			(at 35.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "G-Switch"
+			(at 35.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GT-USB-9010ANS"
 			(at 35.56 110.49 0)
 			(effects
 				(font
@@ -5841,7 +5942,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "J301")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5857,7 +5958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e68c3e5-2201-428a-adf5-ee685107edf2")
-		(property "Reference" "D303"
+		(property "Reference" "D15"
 			(at 96.52 111.7599 90)
 			(effects
 				(font
@@ -5902,6 +6003,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Part_Number" "C1973257"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GG0402052R542P"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff91335b-d3c5-4c85-ae7a-7269050b2302")
 		)
@@ -5911,7 +6039,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "D303")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5927,7 +6055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33ddb7ca-a7a4-4eef-83e7-9167b7d513b8")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR031"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -5978,7 +6106,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0310")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5994,7 +6122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3649cd53-76c0-427b-8a70-d6814da3f9d8")
-		(property "Reference" "C309"
+		(property "Reference" "C13"
 			(at 283.21 30.4799 0)
 			(effects
 				(font
@@ -6003,7 +6131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 283.21 33.0199 0)
 			(effects
 				(font
@@ -6039,6 +6167,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13a09291-429e-4343-b26b-f29a12bf671e")
 		)
@@ -6048,7 +6212,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C309")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6064,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3957f9c3-5e3f-40fc-b739-bba78e4c1aea")
-		(property "Reference" "C316"
+		(property "Reference" "C20"
 			(at 384.81 30.4799 0)
 			(effects
 				(font
@@ -6073,7 +6237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 384.81 33.0199 0)
 			(effects
 				(font
@@ -6109,6 +6273,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 381 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 381 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 381 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 381 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ead9cb46-2c07-488f-8e76-476a4e4ad92f")
 		)
@@ -6118,7 +6318,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C316")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6134,7 +6334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b22c2e6-c004-4386-add9-887f3d96bc35")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR024"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -6185,7 +6385,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0304")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6201,7 +6401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40daf60a-ed9d-4086-ab84-c18be1d5a983")
-		(property "Reference" "#PWR0322"
+		(property "Reference" "#PWR029"
 			(at 198.12 74.93 0)
 			(effects
 				(font
@@ -6252,7 +6452,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0322")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6268,7 +6468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cc19bc-f609-4385-8a12-68756b95e177")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR030"
 			(at 215.9 26.67 0)
 			(effects
 				(font
@@ -6319,7 +6519,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0309")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6335,7 +6535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4497a406-4f33-41e6-aad2-e0ebca0ee3fb")
-		(property "Reference" "C313"
+		(property "Reference" "C17"
 			(at 346.71 30.4799 0)
 			(effects
 				(font
@@ -6344,7 +6544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 346.71 33.0199 0)
 			(effects
 				(font
@@ -6380,6 +6580,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 342.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 342.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 342.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 342.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9774318b-04a7-4c9a-b174-ae6c9aa42c5d")
 		)
@@ -6389,7 +6625,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C313")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c403f5-9464-4d3c-a3a2-61b56b691ed2")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR027"
 			(at 190.5 26.67 0)
 			(effects
 				(font
@@ -6456,7 +6692,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0307")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6472,7 +6708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47cc650c-8d8b-4874-9a23-2a6e975b9e51")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR028"
 			(at 190.5 46.99 0)
 			(effects
 				(font
@@ -6523,7 +6759,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0308")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6539,7 +6775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5431dbee-f3e6-4ed0-9b13-5e9f6bc264f3")
-		(property "Reference" "#PWR0317"
+		(property "Reference" "#PWR038"
 			(at 269.24 74.93 0)
 			(effects
 				(font
@@ -6590,7 +6826,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0317")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6606,7 +6842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56e20479-b9b9-4f1c-ad98-e4bfb8f63ee6")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR023"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -6657,7 +6893,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0303")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6673,7 +6909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ce9fcfd-e3a1-4278-ac4c-cb8d999a7919")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR035"
 			(at 241.3 26.67 0)
 			(effects
 				(font
@@ -6724,7 +6960,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0314")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6740,7 +6976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60fab3ed-5d86-4905-b8bb-e253f506d8a4")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR032"
 			(at 228.6 95.25 0)
 			(effects
 				(font
@@ -6791,7 +7027,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0311")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6807,7 +7043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6672d855-ab1b-4962-bfe5-ee2e49149355")
-		(property "Reference" "U301"
+		(property "Reference" "U2"
 			(at 281.5941 180.34 0)
 			(effects
 				(font
@@ -6825,7 +7061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias"
+		(property "Footprint" "cubesat_rp2040:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias"
 			(at 309.88 78.74 0)
 			(effects
 				(font
@@ -6845,6 +7081,33 @@
 			)
 		)
 		(property "Description" "four port USB 2.0 Hub"
+			(at 279.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C702377"
+			(at 279.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TUSB4041IPAPRQ1"
+			(at 279.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
 			(at 279.4 129.54 0)
 			(effects
 				(font
@@ -7051,7 +7314,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "U301")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7067,7 +7330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f62b4c2-7b51-4527-aa35-7a44c4aeb553")
-		(property "Reference" "R303"
+		(property "Reference" "R12"
 			(at 73.66 121.9199 0)
 			(effects
 				(font
@@ -7076,7 +7339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k 10%"
+		(property "Value" "5.1kR 10%"
 			(at 73.66 124.4599 0)
 			(effects
 				(font
@@ -7121,7 +7384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 71.12 123.19 0)
 			(effects
 				(font
@@ -7130,7 +7393,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E5101FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AEB512X"
+			(at 71.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C490833"
 			(at 71.12 123.19 0)
 			(effects
 				(font
@@ -7148,7 +7420,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R303")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7164,7 +7436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "797d9ade-a02e-46e4-9da1-505808b3fdac")
-		(property "Reference" "C315"
+		(property "Reference" "C19"
 			(at 372.11 30.4799 0)
 			(effects
 				(font
@@ -7173,7 +7445,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 372.11 33.0199 0)
 			(effects
 				(font
@@ -7209,6 +7481,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 368.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 368.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 368.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 368.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa56f001-93a9-4ba0-9c2e-2d3f983381b6")
 		)
@@ -7218,7 +7526,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C315")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7234,7 +7542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c5c974f-4e56-4784-889e-ea2fc2b6b098")
-		(property "Reference" "C304"
+		(property "Reference" "C8"
 			(at 194.31 30.4799 0)
 			(effects
 				(font
@@ -7243,7 +7551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 194.31 33.0199 0)
 			(effects
 				(font
@@ -7252,7 +7560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cubesat_rp2040:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 191.4652 35.56 0)
 			(effects
 				(font
@@ -7279,6 +7587,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C28323"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6355f7d-4bd3-4580-867a-75138a69b3e8")
 		)
@@ -7288,7 +7632,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C304")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7304,7 +7648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81ecb123-c185-4b73-b647-f5f4da3e6a1e")
-		(property "Reference" "C308"
+		(property "Reference" "C12"
 			(at 270.51 30.4799 0)
 			(effects
 				(font
@@ -7313,7 +7657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 270.51 33.0199 0)
 			(effects
 				(font
@@ -7349,6 +7693,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53d3f99a-343b-4447-a021-b02834dfbe97")
 		)
@@ -7358,7 +7738,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C308")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7374,7 +7754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87a755a0-6bf9-4f3e-955e-1a17239d6961")
-		(property "Reference" "R304"
+		(property "Reference" "R13"
 			(at 209.55 80.01 90)
 			(effects
 				(font
@@ -7382,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Value" "90.9k 1%"
+		(property "Value" "90.9kR 1%"
 			(at 209.55 82.55 90)
 			(effects
 				(font
@@ -7426,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
 			(at 209.55 76.2 0)
 			(effects
 				(font
@@ -7435,7 +7815,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E9092FGxx"
+		(property "Manufacturer_Part_Number" "0402WGF9092TCE"
+			(at 209.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C26989"
 			(at 209.55 76.2 0)
 			(effects
 				(font
@@ -7453,7 +7842,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R304")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7470,7 +7859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9020ed6a-4b16-4754-82bb-75c09d01457f")
-		(property "Reference" "R311"
+		(property "Reference" "R20"
 			(at 347.98 143.5099 0)
 			(effects
 				(font
@@ -7479,7 +7868,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kR"
 			(at 347.98 146.0499 0)
 			(effects
 				(font
@@ -7524,7 +7913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 345.44 144.78 0)
 			(effects
 				(font
@@ -7533,7 +7922,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E4701FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AEB472X"
+			(at 345.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C490830"
 			(at 345.44 144.78 0)
 			(effects
 				(font
@@ -7551,7 +7949,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R311")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7567,7 +7965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9073f3f9-f99b-49c0-a2e0-dbfff0bb8a0e")
-		(property "Reference" "C310"
+		(property "Reference" "C14"
 			(at 295.91 30.4799 0)
 			(effects
 				(font
@@ -7576,7 +7974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 295.91 33.0199 0)
 			(effects
 				(font
@@ -7612,6 +8010,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 292.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 292.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 292.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 292.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3a6f196-6508-4834-b4b6-a5f0c8518ea2")
 		)
@@ -7621,7 +8055,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C310")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7637,7 +8071,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90a7d1ab-8cf8-49cc-b6f1-02c038b45633")
-		(property "Reference" "R307"
+		(property "Reference" "R16"
 			(at 231.14 172.7199 0)
 			(effects
 				(font
@@ -7646,7 +8080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kR"
 			(at 231.14 175.2599 0)
 			(effects
 				(font
@@ -7691,7 +8125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 228.6 173.99 0)
 			(effects
 				(font
@@ -7700,7 +8134,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E4701FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AEB472X"
+			(at 228.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C490830"
 			(at 228.6 173.99 0)
 			(effects
 				(font
@@ -7718,7 +8161,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R307")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7734,7 +8177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90bba682-47b0-435a-b8d4-00189dee24f1")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR041"
 			(at 342.9 46.99 0)
 			(effects
 				(font
@@ -7785,7 +8228,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0320")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7801,7 +8244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94e30b75-e782-4dde-85a2-75324196d59e")
-		(property "Reference" "#FLG0302"
+		(property "Reference" "#FLG03"
 			(at 53.34 90.805 0)
 			(effects
 				(font
@@ -7852,7 +8295,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#FLG0302")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7868,7 +8311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f238344-6983-4912-8e25-12a1ad49f6ef")
-		(property "Reference" "C314"
+		(property "Reference" "C18"
 			(at 359.41 30.4799 0)
 			(effects
 				(font
@@ -7877,7 +8320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 359.41 33.0199 0)
 			(effects
 				(font
@@ -7913,6 +8356,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 355.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 355.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 355.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 355.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "201b9283-de1b-405f-bd39-b8749b4b937b")
 		)
@@ -7922,7 +8401,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C314")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7938,7 +8417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a285e8f0-f438-42f5-b103-34a855b9661d")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR034"
 			(at 228.6 193.04 0)
 			(effects
 				(font
@@ -7989,7 +8468,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0313")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8006,7 +8485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a72b511a-1a83-469c-acb1-ad1cf0316f24")
-		(property "Reference" "R309"
+		(property "Reference" "R18"
 			(at 327.66 143.5099 0)
 			(effects
 				(font
@@ -8015,7 +8494,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kR"
 			(at 327.66 146.0499 0)
 			(effects
 				(font
@@ -8060,7 +8539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 325.12 144.78 0)
 			(effects
 				(font
@@ -8069,7 +8548,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E4701FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AEB472X"
+			(at 325.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C490830"
 			(at 325.12 144.78 0)
 			(effects
 				(font
@@ -8087,7 +8575,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R309")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6ab3df-75a6-4cfb-8bd7-05b30f6a15b8")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR026"
 			(at 93.98 125.73 0)
 			(effects
 				(font
@@ -8113,11 +8601,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 124.46 0)
+			(at 96.52 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8153,7 +8642,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0301")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8169,7 +8658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af405d0e-3380-4f9d-8a30-ad8f563692b2")
-		(property "Reference" "C311"
+		(property "Reference" "C15"
 			(at 308.61 30.4799 0)
 			(effects
 				(font
@@ -8178,7 +8667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 308.61 33.0199 0)
 			(effects
 				(font
@@ -8214,6 +8703,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 304.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 304.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 304.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 304.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b3759ac-42fe-4d26-b480-983d7c00a720")
 		)
@@ -8223,7 +8748,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C311")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8239,7 +8764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb510ec7-abbf-40ef-8cd6-1544fbf99368")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR036"
 			(at 241.3 46.99 0)
 			(effects
 				(font
@@ -8290,7 +8815,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0315")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8306,7 +8831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfb359a4-52a1-4980-9dc4-17b0316f0ff4")
-		(property "Reference" "C305"
+		(property "Reference" "C9"
 			(at 219.71 30.4799 0)
 			(effects
 				(font
@@ -8315,7 +8840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 219.71 33.0199 0)
 			(effects
 				(font
@@ -8324,7 +8849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cubesat_rp2040:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 216.8652 35.56 0)
 			(effects
 				(font
@@ -8351,6 +8876,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C28323"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f1c3ecd-289a-4853-af3e-696c79c388cf")
 		)
@@ -8360,7 +8921,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C305")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8376,7 +8937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ab44f8-41ab-4504-b189-b14ef6bfd81e")
-		(property "Reference" "R306"
+		(property "Reference" "R15"
 			(at 231.14 121.9199 0)
 			(effects
 				(font
@@ -8385,7 +8946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.53k 1%"
+		(property "Value" "9.53kR 1%"
 			(at 231.14 124.4599 0)
 			(effects
 				(font
@@ -8430,7 +8991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
 			(at 228.6 123.19 0)
 			(effects
 				(font
@@ -8439,7 +9000,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E9531FGxx"
+		(property "Manufacturer_Part_Number" "0402WGF9531TCE"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C96273"
 			(at 228.6 123.19 0)
 			(effects
 				(font
@@ -8457,7 +9027,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R306")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8473,7 +9043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c872232f-7314-497d-99b1-f53a62b19e0d")
-		(property "Reference" "R301"
+		(property "Reference" "R11"
 			(at 63.5 121.9199 0)
 			(effects
 				(font
@@ -8482,7 +9052,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k 10%"
+		(property "Value" "5.1kR 10%"
 			(at 63.5 124.4599 0)
 			(effects
 				(font
@@ -8527,7 +9097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -8536,7 +9106,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E5101FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AEB512X"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C490833"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -8554,7 +9133,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R301")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8570,7 +9149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9c4c230-0e6b-4f55-a98d-3ad97b2a43b2")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR022"
 			(at 35.56 156.21 0)
 			(effects
 				(font
@@ -8621,7 +9200,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0302")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8638,7 +9217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca0b352c-7eb6-4f3d-967b-5377dfc1b1aa")
-		(property "Reference" "R310"
+		(property "Reference" "R19"
 			(at 337.82 143.5099 0)
 			(effects
 				(font
@@ -8647,7 +9226,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kR"
 			(at 337.82 146.0499 0)
 			(effects
 				(font
@@ -8692,7 +9271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 335.28 144.78 0)
 			(effects
 				(font
@@ -8701,7 +9280,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E4701FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AEB472X"
+			(at 335.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C490830"
 			(at 335.28 144.78 0)
 			(effects
 				(font
@@ -8719,7 +9307,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R310")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8735,7 +9323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db46fb85-51dd-4ab6-8bf5-3d500e871ac0")
-		(property "Reference" "C312"
+		(property "Reference" "C16"
 			(at 321.31 30.4799 0)
 			(effects
 				(font
@@ -8744,7 +9332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 321.31 33.0199 0)
 			(effects
 				(font
@@ -8780,6 +9368,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 317.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 317.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 317.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 317.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "756fff5f-a9a1-47c2-a86a-e7f73ad41132")
 		)
@@ -8789,7 +9413,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C312")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8805,7 +9429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea458bf-5fa0-412e-875c-ed3bb2df25c8")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR042"
 			(at 345.44 161.29 0)
 			(effects
 				(font
@@ -8856,7 +9480,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0321")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8872,7 +9496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63c5da2-a733-48b8-a09e-95306af1be1b")
-		(property "Reference" "C306"
+		(property "Reference" "C10"
 			(at 245.11 30.4799 0)
 			(effects
 				(font
@@ -8881,7 +9505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 245.11 33.0199 0)
 			(effects
 				(font
@@ -8917,6 +9541,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bdaac9de-95ee-49c9-8a62-d51a54e28920")
 		)
@@ -8926,7 +9586,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "C306")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8942,7 +9602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0cc194f-fe40-4d31-9fdc-dd366670e049")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR039"
 			(at 279.4 193.04 0)
 			(effects
 				(font
@@ -8993,7 +9653,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0318")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9009,7 +9669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f30bdaf7-7611-4d85-8c85-63ff914eb390")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR033"
 			(at 228.6 135.89 0)
 			(effects
 				(font
@@ -9060,7 +9720,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#PWR0312")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9076,7 +9736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb924f17-91b6-48a3-a641-c84794a27ab1")
-		(property "Reference" "R305"
+		(property "Reference" "R14"
 			(at 231.14 81.2799 0)
 			(effects
 				(font
@@ -9085,7 +9745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k 1%"
+		(property "Value" "10kR 1%"
 			(at 231.14 83.8199 0)
 			(effects
 				(font
@@ -9130,7 +9790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "PANASONIC"
 			(at 228.6 82.55 0)
 			(effects
 				(font
@@ -9139,7 +9799,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "P-0402E1002FGxx"
+		(property "Manufacturer_Part_Number" "ERA2AED103X"
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C191568"
 			(at 228.6 82.55 0)
 			(effects
 				(font
@@ -9157,7 +9826,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "R305")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9173,7 +9842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc95917d-72bd-4ead-8bb3-bba93e18c1a5")
-		(property "Reference" "#FLG0301"
+		(property "Reference" "#FLG02"
 			(at 37.465 135.89 0)
 			(effects
 				(font
@@ -9224,7 +9893,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/827fa2e5-5cb5-4cf2-935c-289587867af3"
-					(reference "#FLG0301")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
