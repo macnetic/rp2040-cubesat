@@ -8440,7 +8440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RST3225N_TCXO_32M0.kicad_sch"
+		(property "Sheetfile" "oscillator.kicad_sch"
 			(at 25.4 71.7046 0)
 			(effects
 				(font
@@ -8479,7 +8479,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "eb6c2f90-0da4-47e8-af11-e42ff745f21a")
-		(property "Sheetname" "TMR voting"
+		(property "Sheetname" "TMR"
 			(at 200.66 57.7084 0)
 			(effects
 				(font
@@ -8488,7 +8488,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "tmr_voting.kicad_sch"
+		(property "Sheetfile" "tmr.kicad_sch"
 			(at 200.66 84.4046 0)
 			(effects
 				(font

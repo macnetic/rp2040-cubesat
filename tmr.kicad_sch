@@ -2371,7 +2371,7 @@
 			(uuid "c25c9f40-dd96-4ebd-9fb6-2170e88bd0fd")
 		)
 		(instances
-			(project ""
+			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
 					(reference "R59")
 					(unit 1)
@@ -2890,7 +2890,7 @@
 			(uuid "1b412e45-2f4d-494d-b320-377ea63078e3")
 		)
 		(instances
-			(project ""
+			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
 					(reference "D16")
 					(unit 1)
@@ -2957,7 +2957,7 @@
 			(uuid "04ee7f6a-a941-47ae-bbab-6e7cbacd7599")
 		)
 		(instances
-			(project ""
+			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
 					(reference "#PWR0108")
 					(unit 1)
@@ -3024,7 +3024,7 @@
 			(uuid "8b03bb96-2a0b-44a7-9351-f358649d7a81")
 		)
 		(instances
-			(project ""
+			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
 					(reference "#PWR0105")
 					(unit 1)

@@ -1786,7 +1786,7 @@
 			(uuid "90bfd219-5728-4ff3-bbbb-51989b5dd882")
 		)
 		(instances
-			(project ""
+			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/9f508e75-6f97-47bb-8ac1-2b188f21985e"
 					(reference "X1")
 					(unit 1)
