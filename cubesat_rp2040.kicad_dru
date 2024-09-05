@@ -1,5 +1,10 @@
 (version 1)
 
+##### DESIGN RULES #####
+
+
+
+##### JLCPCB FAB RULES (OVERRIDES DESIGN RULES WHERE APPLICABLE) #####
 (rule "Drill hole diameter"
 	(severity error)
 	(constraint hole_size (min 0.15mm) (max 6.30mm)))
@@ -114,15 +119,10 @@
 
 (rule "Silkscreen line width"
 	(layer "*.Silkscreen")
-	(constraint text_thickness (min 0.153mm)))
+	(constraint text_thickness (min 0.153mm))
+	(constraint text_height (min 1mm)))
 
 (rule "Pad-to-silkscreen clearance"
 	(layer outer)
 	(condition "A.Type == 'Pad'")
 	(constraint silk_clearance (min 0.15mm)))
-
-##(rule "SILKSCREEN TEXT"
-##	(layer "*.Silkscreen")
-##	(constraint text_thickness (min 0.15mm))
-##	(constraint text_height (min 1mm))
-##)

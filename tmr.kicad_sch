@@ -3,9 +3,9 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "10578884-5299-4090-99b9-985621655057")
-	(paper "A4")
+	(paper "A3")
 	(title_block
-		(title "CubeSat RP2040 Board")
+		(title "TMR RESET VOTING CIRCUIT")
 		(date "2024-08-28")
 		(rev "1")
 		(company "Magnus Oksbøl Therkelsen")
@@ -329,6 +329,142 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,16 +982,34 @@
 		)
 	)
 	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "041dee42-2d96-4018-aed3-8a736619627a")
+	)
+	(junction
 		(at 96.52 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "197da82d-7cc0-4d0c-8ec4-2532decbe52c")
 	)
 	(junction
+		(at 292.1 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f7f88e-c5eb-4343-ab03-b65c206f0b10")
+	)
+	(junction
 		(at 114.3 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "444c78f3-a63b-443d-89fd-3d84eafb0799")
+	)
+	(junction
+		(at 279.4 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4622250d-d144-4817-beb5-b8525b787fd5")
 	)
 	(junction
 		(at 101.6 50.8)
@@ -870,6 +1024,12 @@
 		(uuid "76319db7-f95f-4c62-9191-720432832170")
 	)
 	(junction
+		(at 292.1 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c0c9bc-948d-4e64-826b-92278da303cc")
+	)
+	(junction
 		(at 93.98 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -882,26 +1042,63 @@
 		(uuid "92768426-6123-4116-939a-0f0937c3045f")
 	)
 	(junction
-		(at 127 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ff68bfe-236b-4d10-bf8c-566cc6d8e2bb")
-	)
-	(junction
 		(at 114.3 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9e75698-9416-45dc-a979-2611b182307c")
 	)
+	(junction
+		(at 304.8 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f52579a5-428d-4ea6-80c4-e692f3eb369b")
+	)
+	(bus_entry
+		(at 149.86 50.8)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab17883d-34b0-4d45-af05-e48b112172d6")
+	)
+	(bus_entry
+		(at 149.86 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0150ed6-bb91-4ded-9b11-e5b9c84ace53")
+	)
+	(bus_entry
+		(at 149.86 111.76)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbea04d5-6560-4b27-bf94-f80f0bb4ec5f")
+	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 139.7 50.8)
+			(xy 101.6 50.8) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "018be514-4dcf-4ccb-affe-ff7d51777c11")
+	)
+	(wire
+		(pts
+			(xy 304.8 123.19) (xy 304.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7d190c-ee4c-42de-8881-5301fa55c5f5")
 	)
 	(wire
 		(pts
@@ -955,7 +1152,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 111.76) (xy 139.7 111.76)
+			(xy 127 111.76) (xy 149.86 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1002,16 +1199,6 @@
 			(type default)
 		)
 		(uuid "23a55b78-4b36-4f30-9914-a5aa5769c12a")
-	)
-	(wire
-		(pts
-			(xy 127 40.64) (xy 127 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281024a2-6f0f-4eca-91cc-50997d72a48a")
 	)
 	(wire
 		(pts
@@ -1065,6 +1252,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 119.38) (xy 279.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39747191-87f8-4846-88a1-156966ec96a6")
+	)
+	(wire
+		(pts
 			(xy 93.98 132.08) (xy 93.98 111.76)
 		)
 		(stroke
@@ -1095,6 +1292,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 130.81) (xy 279.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eae89b7-88b2-4a0d-b701-ff5980b45791")
+	)
+	(wire
+		(pts
 			(xy 93.98 91.44) (xy 88.9 91.44)
 		)
 		(stroke
@@ -1102,6 +1309,16 @@
 			(type default)
 		)
 		(uuid "4f679c3c-ba09-4290-92fc-62b21adcad9c")
+	)
+	(wire
+		(pts
+			(xy 304.8 119.38) (xy 292.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e6560f-11a4-43da-9816-f51f442df5a2")
 	)
 	(wire
 		(pts
@@ -1132,6 +1349,16 @@
 			(type default)
 		)
 		(uuid "67898490-86df-4212-96d9-ca121dfa347c")
+	)
+	(wire
+		(pts
+			(xy 292.1 119.38) (xy 292.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c34119-703c-43c3-be54-e1fd1dee3547")
 	)
 	(wire
 		(pts
@@ -1173,6 +1400,26 @@
 		)
 		(uuid "6d217c64-f474-4be0-98d1-25c64b0e34ec")
 	)
+	(bus
+		(pts
+			(xy 152.4 68.58) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da6c2b2-6529-4f56-95f5-d1a58bb9e6b7")
+	)
+	(wire
+		(pts
+			(xy 292.1 134.62) (xy 304.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76574f1b-66f5-48ac-9a30-b6c84cb52383")
+	)
 	(wire
 		(pts
 			(xy 50.8 114.3) (xy 60.96 114.3)
@@ -1202,6 +1449,16 @@
 			(type default)
 		)
 		(uuid "7d72bc6b-8bee-455b-aaee-7ce6bdbac37e")
+	)
+	(wire
+		(pts
+			(xy 304.8 130.81) (xy 304.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d83e6f2-393c-4231-82db-b06801593ebd")
 	)
 	(wire
 		(pts
@@ -1245,6 +1502,26 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 130.81) (xy 292.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bd4554-acfb-4d17-9328-7a49ebdd3c3c")
+	)
+	(wire
+		(pts
+			(xy 127 40.64) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c0d867-378d-4bb1-8b85-06eac99de502")
+	)
+	(wire
+		(pts
 			(xy 114.3 20.32) (xy 127 20.32)
 		)
 		(stroke
@@ -1252,6 +1529,16 @@
 			(type default)
 		)
 		(uuid "bd839028-5df5-4337-bf39-c6a7a7a2dcb5")
+	)
+	(wire
+		(pts
+			(xy 279.4 134.62) (xy 292.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde9b422-56c9-46de-96d7-f294118ee2df")
 	)
 	(wire
 		(pts
@@ -1272,6 +1559,26 @@
 			(type default)
 		)
 		(uuid "c6e9435c-339a-4060-a8d0-dac2bf4e3ac6")
+	)
+	(bus
+		(pts
+			(xy 152.4 48.26) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc89960e-410f-4ac4-8f66-254c69aa5942")
+	)
+	(wire
+		(pts
+			(xy 304.8 134.62) (xy 304.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf301966-335d-40a8-b86e-4514f1d6a99e")
 	)
 	(wire
 		(pts
@@ -1295,13 +1602,33 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 139.7 71.12)
+			(xy 114.3 71.12) (xy 149.86 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da1b9ec6-6ae5-43fb-bfb0-219ba6ca1a13")
+	)
+	(wire
+		(pts
+			(xy 279.4 119.38) (xy 279.4 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daabfdd1-8f02-4930-be47-229780f50e54")
+	)
+	(wire
+		(pts
+			(xy 279.4 111.76) (xy 279.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db57c869-bc4b-4d7c-8d1f-8f8f86a3bc43")
 	)
 	(wire
 		(pts
@@ -1362,6 +1689,39 @@
 		)
 		(uuid "fb6bb7d8-233c-4609-acc4-4bfcf39c3d4d")
 	)
+	(label "~{TMR_RESET_A}"
+		(at 149.86 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e3e0c42-120b-4c85-a720-2bbbcb302417")
+	)
+	(label "~{TMR_RESET_C}"
+		(at 149.86 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75ae5e49-7755-4e4c-bb14-70f4d93e4229")
+	)
+	(label "~{TMR_RESET_B}"
+		(at 149.86 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "809a912a-7974-4972-bed6-e1c16b6403fd")
+	)
 	(hierarchical_label "UNIT_A_VOTE_C"
 		(shape input)
 		(at 50.8 129.54 180)
@@ -1373,18 +1733,6 @@
 			(justify right)
 		)
 		(uuid "0997f0a2-732b-4ed3-b81a-d34b04cfc308")
-	)
-	(hierarchical_label "TMR_RESET_A"
-		(shape output)
-		(at 139.7 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15ada8f7-ffbe-4840-9b93-15980fc66291")
 	)
 	(hierarchical_label "UNIT_B_VOTE_A"
 		(shape input)
@@ -1410,6 +1758,18 @@
 		)
 		(uuid "345d8073-e968-45ef-be7c-07eb4e13d63e")
 	)
+	(hierarchical_label "{~{TMR_RESET_A} ~{TMR_RESET_B} ~{TMR_RESET_C}}"
+		(shape input)
+		(at 152.4 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "722f340a-9727-431a-b3d4-e70336dc7e7b")
+	)
 	(hierarchical_label "UNIT_C_VOTE_A"
 		(shape input)
 		(at 50.8 154.94 180)
@@ -1433,18 +1793,6 @@
 			(justify right)
 		)
 		(uuid "73248048-bca9-41b5-a527-101b12674d8e")
-	)
-	(hierarchical_label "TMR_RESET_B"
-		(shape output)
-		(at 139.7 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e39c89c-7b0d-430e-928d-0b7a55e8f783")
 	)
 	(hierarchical_label "UNIT_A_VOTE_B"
 		(shape input)
@@ -1481,18 +1829,6 @@
 			(justify right)
 		)
 		(uuid "a4812d98-1abf-4e2e-87a2-b210afda58d0")
-	)
-	(hierarchical_label "TMR_RESET_C"
-		(shape output)
-		(at 139.7 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cecfaced-3aaa-493e-a65a-7b3f309e4ce2")
 	)
 	(hierarchical_label "UNIT_A_VOTE_B"
 		(shape input)
@@ -1542,75 +1878,6 @@
 		)
 		(uuid "fcfc8ac9-fce9-4c77-923e-5c1d6b7ef356")
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 132.08 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05be1999-1114-4c6d-8269-798b57751453")
-		(property "Netclass" "TMR_RESET"
-			(at 132.7785 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 132.08 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b67d47e4-89a6-4139-aee0-240c80c6c51c")
-		(property "Netclass" "TMR_RESET"
-			(at 132.7785 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 132.08 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b722e7d3-3c62-42fb-8ad0-54cbabcbd872")
-		(property "Netclass" "TMR_RESET"
-			(at 132.7785 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 101.6 17.78 0)
@@ -1621,7 +1888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "028910c8-29d5-41d7-a77a-6d5d4ccef06f")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR093"
 			(at 101.6 21.59 0)
 			(effects
 				(font
@@ -1672,7 +1939,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "#PWR0104")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -1688,7 +1955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "098bda0a-6b7c-41d0-91c4-70cb21ba1507")
-		(property "Reference" "U20"
+		(property "Reference" "U19"
 			(at 260.35 125.7299 0)
 			(effects
 				(font
@@ -1787,7 +2054,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U20")
+					(reference "U19")
 					(unit 3)
 				)
 			)
@@ -1803,7 +2070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5919bc-00a5-458b-a5bf-a6fc016dd7c0")
-		(property "Reference" "U18"
+		(property "Reference" "U17"
 			(at 209.55 125.7299 0)
 			(effects
 				(font
@@ -1902,7 +2169,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U18")
+					(reference "U17")
 					(unit 3)
 				)
 			)
@@ -1918,7 +2185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15bafa33-cf77-4914-b6ff-84d63c35050a")
-		(property "Reference" "D18"
+		(property "Reference" "D17"
 			(at 130.81 37.1474 90)
 			(effects
 				(font
@@ -1999,7 +2266,113 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "D18")
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 279.4 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c611f2a-bc68-45d3-b901-bb2b41d6a7f1")
+		(property "Reference" "C93"
+			(at 283.21 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 283.21 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cubesat_rp2040:C_0402_1005Metric"
+			(at 280.3652 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56f01f5f-94b7-4a32-a564-f29d30928cdb")
+		)
+		(pin "1"
+			(uuid "3fbb829e-b934-4a33-97f6-d685f1b987a6")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2403beba-1e03-45db-a54e-cc2e819205de")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR098"
 			(at 254 115.57 0)
 			(effects
 				(font
@@ -2066,7 +2439,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "#PWR0109")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -2082,7 +2455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a16c5f4-05da-4bcb-a8ef-90c0a58bb9f1")
-		(property "Reference" "R61"
+		(property "Reference" "R54"
 			(at 129.54 25.3999 0)
 			(effects
 				(font
@@ -2163,7 +2536,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "R61")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -2179,7 +2552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c26d64f-3b9b-4870-af98-5b6de1559502")
-		(property "Reference" "U19"
+		(property "Reference" "U18"
 			(at 74.9189 81.28 0)
 			(effects
 				(font
@@ -2276,7 +2649,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U19")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4254d1ad-f77e-44ad-81f9-63dca58896a8")
-		(property "Reference" "R59"
+		(property "Reference" "R52"
 			(at 104.14 25.3999 0)
 			(effects
 				(font
@@ -2373,7 +2746,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "R59")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -2389,7 +2762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f9dc7f-3047-4f89-b257-bfcc731d4337")
-		(property "Reference" "D17"
+		(property "Reference" "D16"
 			(at 118.11 37.1474 90)
 			(effects
 				(font
@@ -2470,7 +2843,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "D17")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -2486,7 +2859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49b5ed2e-1579-4776-bd2b-540d3cf5fe7d")
-		(property "Reference" "U18"
+		(property "Reference" "U17"
 			(at 74.9189 60.96 0)
 			(effects
 				(font
@@ -2583,8 +2956,75 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U18")
+					(reference "U17")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 279.4 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55225020-657d-47e7-b1fa-ae7a37b95e26")
+		(property "Reference" "#PWR0100"
+			(at 279.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 281.94 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 279.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "782fddee-ea7e-4003-b012-a942ed084f4e")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0100")
+					(unit 1)
 				)
 			)
 		)
@@ -2599,7 +3039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62718eeb-d56c-44e5-97c5-91992b99a863")
-		(property "Reference" "R60"
+		(property "Reference" "R53"
 			(at 116.84 25.3999 0)
 			(effects
 				(font
@@ -2680,7 +3120,74 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "R60")
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e44a594-2057-4799-8589-419256d40cac")
+		(property "Reference" "#PWR0101"
+			(at 304.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.34 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "023e7a0e-b8e2-493a-8ebd-d769c708280d")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2696,7 +3203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "856cec68-35f4-4de8-a5c8-642b736563de")
-		(property "Reference" "U19"
+		(property "Reference" "U18"
 			(at 234.95 125.7299 0)
 			(effects
 				(font
@@ -2795,7 +3302,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U19")
+					(reference "U18")
 					(unit 3)
 				)
 			)
@@ -2811,7 +3318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd4c9e7-c2f5-4f68-81c3-45d113c95891")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 105.41 37.1474 90)
 			(effects
 				(font
@@ -2892,7 +3399,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2908,7 +3415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93569a08-b8e2-496b-84ec-f1aa4699b5f3")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR097"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -2959,7 +3466,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "#PWR0108")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -2975,7 +3482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3cd9c37-ea5d-4a0a-a2fb-b4edcc726e9b")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR094"
 			(at 203.2 115.57 0)
 			(effects
 				(font
@@ -3026,7 +3533,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "#PWR0105")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1c5067-31ef-4ed7-a43b-15f15fed4df3")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR099"
 			(at 254 148.59 0)
 			(effects
 				(font
@@ -3093,7 +3600,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "#PWR0110")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -3109,7 +3616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b618d3de-b968-4cc5-aa30-2e972c62d8fb")
-		(property "Reference" "U20"
+		(property "Reference" "U19"
 			(at 74.9189 142.24 0)
 			(effects
 				(font
@@ -3206,7 +3713,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U20")
+					(reference "U19")
 					(unit 2)
 				)
 			)
@@ -3222,7 +3729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c39bada5-8092-45a2-8ea4-a4a0e8aa5d59")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR096"
 			(at 228.6 115.57 0)
 			(effects
 				(font
@@ -3273,7 +3780,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "#PWR0107")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c65d9c6e-1d9c-4b60-a154-aac2c3cf5d45")
-		(property "Reference" "U18"
+		(property "Reference" "U17"
 			(at 74.9189 40.64 0)
 			(effects
 				(font
@@ -3386,7 +3893,113 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U18")
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 292.1 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb6a680-cd9c-4bf6-a587-7ab60e60b21d")
+		(property "Reference" "C94"
+			(at 295.91 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 295.91 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cubesat_rp2040:C_0402_1005Metric"
+			(at 293.0652 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e56483a-f667-436f-8667-32a2edca60f5")
+		)
+		(pin "1"
+			(uuid "40fb8848-a6d1-4e9b-bc41-c190919587e0")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -3402,7 +4015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c58588-964e-49f5-832a-ea75b8da4191")
-		(property "Reference" "U19"
+		(property "Reference" "U18"
 			(at 74.9189 101.6 0)
 			(effects
 				(font
@@ -3499,7 +4112,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U19")
+					(reference "U18")
 					(unit 2)
 				)
 			)
@@ -3515,7 +4128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da87d77f-6181-4dee-b4bf-535d0df59d35")
-		(property "Reference" "U20"
+		(property "Reference" "U19"
 			(at 74.9189 121.92 0)
 			(effects
 				(font
@@ -3612,7 +4225,113 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "U20")
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 304.8 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9dbb09e-a574-4ffc-b3e9-54143dfd860c")
+		(property "Reference" "C95"
+			(at 308.61 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 308.61 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cubesat_rp2040:C_0402_1005Metric"
+			(at 305.7652 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 304.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 304.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 304.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB5NNNC"
+			(at 304.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C960916"
+			(at 304.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "320a7071-a26d-4828-a02d-90d8a4fdbcf8")
+		)
+		(pin "1"
+			(uuid "e48aa756-26dc-4327-a010-c7ad175ecf9b")
+		)
+		(instances
+			(project "cubesat_rp2040"
+				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -3628,7 +4347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee044872-cab8-47a2-a27c-461b93472d6f")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR095"
 			(at 203.2 148.59 0)
 			(effects
 				(font
@@ -3679,7 +4398,7 @@
 		(instances
 			(project "cubesat_rp2040"
 				(path "/5511013b-c214-40ba-8960-f470f52474f8/eb6c2f90-0da4-47e8-af11-e42ff745f21a"
-					(reference "#PWR0106")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)

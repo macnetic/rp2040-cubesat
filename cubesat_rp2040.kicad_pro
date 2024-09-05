@@ -43,8 +43,8 @@
         },
         "silk_line_width": 0.153,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 0.8,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
@@ -66,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -563,7 +563,7 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "CAN",
+        "name": "CAN-FD_8Mbps_Tr=17ns_Zdiff=120R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.108821,
@@ -580,10 +580,10 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "GND",
+        "name": "CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
@@ -597,9 +597,43 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "QSPI",
+        "name": "QSPI_166Mbps_Tr=800ps_Z0=50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(132, 132, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "RESET",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "SWD_24Mbps_Tr=4ns_Z0=50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.3,
@@ -614,44 +648,10 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "RS-485",
+        "name": "TIA-485_10Mbps_Tr=14ns_Zdiff=120R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.0,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
-        "name": "SWD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 0, 255)",
-        "track_width": 0.15,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
-        "name": "TMR_RESET",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
@@ -665,7 +665,7 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "USB",
+        "name": "USB-FS_12Mbps_Tr=11ns_Zdiff=90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 82, 149)",
         "track_width": 0.0,
@@ -678,47 +678,43 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/TMR voting/TMR_RESET_A": "TMR_RESET",
-      "/TMR voting/TMR_RESET_B": "TMR_RESET",
-      "/TMR voting/TMR_RESET_C": "TMR_RESET"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB",
-        "pattern": "*/*USB.D?"
-      },
-      {
-        "netclass": "QSPI",
+        "netclass": "QSPI_166Mbps_Tr=800ps_Z0=50R",
         "pattern": "*/QSPI.*"
       },
       {
         "netclass": "3V3",
-        "pattern": "+3V3"
+        "pattern": "*+3V3*"
       },
       {
         "netclass": "1V1",
-        "pattern": "+1V1"
+        "pattern": "*+1V1*"
       },
       {
-        "netclass": "GND",
-        "pattern": "GND"
+        "netclass": "CAN-FD_8Mbps_Tr=17ns_Zdiff=120R",
+        "pattern": "*CAN_?.?"
       },
       {
-        "netclass": "SWD",
-        "pattern": "*/SWCLK"
+        "netclass": "TIA-485_10Mbps_Tr=14ns_Zdiff=120R",
+        "pattern": "*UART*.D?"
       },
       {
-        "netclass": "CAN",
-        "pattern": "*/CAN*.*"
+        "netclass": "USB-FS_12Mbps_Tr=11ns_Zdiff=90R",
+        "pattern": "*USB*.D?"
       },
       {
-        "netclass": "RS-485",
-        "pattern": "*UART*"
+        "netclass": "SWD_24Mbps_Tr=4ns_Z0=50R",
+        "pattern": "*SWDIO"
       },
       {
-        "netclass": "SWD",
-        "pattern": "*/SWDIO"
+        "netclass": "SWD_24Mbps_Tr=4ns_Z0=50R",
+        "pattern": "*SWCLK"
+      },
+      {
+        "netclass": "RESET",
+        "pattern": "*RESET*"
       }
     ]
   },
@@ -933,8 +929,12 @@
       "Root"
     ],
     [
+      "52537145-8677-46a4-9caa-65fee1efd33d",
+      "Cubesat System Bus"
+    ],
+    [
       "827fa2e5-5cb5-4cf2-935c-289587867af3",
-      "USB"
+      "USB PHY"
     ],
     [
       "9f508e75-6f97-47bb-8ac1-2b188f21985e",
@@ -945,24 +945,24 @@
       "RP2040 - Unit A"
     ],
     [
-      "2da250c1-4d60-4a4c-9f26-8c26488f6e94",
-      "CAN"
-    ],
-    [
       "758c0c08-1cc3-4133-ad62-8ecc65a8bb90",
       "RP2040 - Unit B"
-    ],
-    [
-      "2da250c1-4d60-4a4c-9f26-8c26488f6e94",
-      "CAN"
     ],
     [
       "44a9d8f8-b917-4495-a2e7-cb76b29a1175",
       "RP2040 - Unit C"
     ],
     [
-      "2da250c1-4d60-4a4c-9f26-8c26488f6e94",
-      "CAN"
+      "de63699f-ae10-40f8-afb5-8e23a4514ac4",
+      "CAN PHY - UNIT A"
+    ],
+    [
+      "4543a77d-0f11-48ec-b083-8f5fc3ab2861",
+      "CAN PHY - UNIT B"
+    ],
+    [
+      "da07c464-c3c9-4227-85db-f2c4bbdd8aab",
+      "CAN PHY - UNIT C"
     ],
     [
       "eb6c2f90-0da4-47e8-af11-e42ff745f21a",
@@ -970,7 +970,11 @@
     ],
     [
       "82beede5-1b1c-4e8c-a04c-c9872cebc87d",
-      "LVDS"
+      "M-LVDS PHY"
+    ],
+    [
+      "fb452eba-12ed-4d6d-8fe0-435e6f0ebe40",
+      "RS-485 PHY"
     ]
   ],
   "text_variables": {}
